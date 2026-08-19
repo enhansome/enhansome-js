@@ -1,6 +1,57 @@
 {
   "items": [
     {
+      "description": "Host libraries and provide tools for fetching and packaging them.",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Bower",
+          "description": "Legacy front-end package manager.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 5710341,
+            "language": "JavaScript",
+            "last_commit": "2024-10-13T10:45:05Z",
+            "owner": "bower",
+            "repo": "bower",
+            "stars": 14912
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "component",
+          "description": "Client package management for building web apps.",
+          "children": [],
+          "repo_info": {
+            "archived": true,
+            "id": 5363235,
+            "language": "JavaScript",
+            "last_commit": "2017-12-16T14:10:16Z",
+            "owner": "componentjs",
+            "repo": "component",
+            "stars": 4519
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Ender",
+          "description": "The no-library library.",
+          "children": [],
+          "repo_info": {
+            "archived": true,
+            "id": 1569010,
+            "language": "JavaScript",
+            "last_commit": "2020-04-02T11:42:28Z",
+            "owner": "ender-js",
+            "repo": "Ender",
+            "stars": 1748
+          }
+        }
+      ],
+      "title": "Package Managers"
+    },
+    {
       "description": "Manage multiple packages/apps in one repo.",
       "items": [
         {
@@ -10,8 +61,9 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 79723839,
             "language": "TypeScript",
-            "last_commit": "2026-08-18T23:05:50Z",
+            "last_commit": "2026-08-19T12:37:56Z",
             "owner": "teambit",
             "repo": "bit",
             "stars": 18457
@@ -24,11 +76,12 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 177033748,
             "language": "TypeScript",
-            "last_commit": "2026-08-16T15:56:31Z",
+            "last_commit": "2026-08-19T05:45:43Z",
             "owner": "changesets",
             "repo": "changesets",
-            "stars": 12287
+            "stars": 12292
           }
         }
       ],
@@ -44,6 +97,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 931039,
             "language": "JavaScript",
             "last_commit": "2024-12-21T10:04:24Z",
             "owner": "browserify",
@@ -58,11 +112,12 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 10064545,
             "language": "JavaScript",
             "last_commit": "2026-06-14T00:09:51Z",
             "owner": "systemjs",
             "repo": "systemjs",
-            "stars": 13090
+            "stars": 13091
           }
         },
         {
@@ -72,147 +127,159 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 501326,
             "language": "JavaScript",
             "last_commit": "2025-11-30T23:49:15Z",
             "owner": "requirejs",
             "repo": "requirejs",
-            "stars": 12913
+            "stars": 12914
           }
         }
       ],
       "title": "Module Systems"
     },
     {
-      "description": "",
-      "items": [],
+      "description": null,
+      "items": [
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "webpack",
+              "description": "Mature bundler for complex apps.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 3678731,
+                "language": "JavaScript",
+                "last_commit": "2026-08-19T11:14:09Z",
+                "owner": "webpack",
+                "repo": "webpack",
+                "stars": 65971
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Parcel",
+              "description": "Zero-config bundler.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 99598595,
+                "language": "JavaScript",
+                "last_commit": "2026-08-17T04:30:08Z",
+                "owner": "parcel-bundler",
+                "repo": "parcel",
+                "stars": 44019
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "esbuild",
+              "description": "Extremely fast bundler/transpiler.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 61137153,
+                "language": "Go",
+                "last_commit": "2026-08-09T17:20:12Z",
+                "owner": "evanw",
+                "repo": "esbuild",
+                "stars": 40008
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Rollup",
+              "description": "Great for libraries (ESM-first).",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 35640229,
+                "language": "JavaScript",
+                "last_commit": "2026-08-16T13:44:20Z",
+                "owner": "rollup",
+                "repo": "rollup",
+                "stars": 26306
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Microbundle",
+              "description": "Zero-config bundler for tiny modules.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 113912360,
+                "language": "JavaScript",
+                "last_commit": "2026-02-01T19:24:38Z",
+                "owner": "developit",
+                "repo": "microbundle",
+                "stars": 8129
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "FuseBox",
+              "description": "A bundler that does it right.",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "id": 72198897,
+                "language": "JavaScript",
+                "last_commit": "2022-12-01T07:53:31Z",
+                "owner": "fuse-box",
+                "repo": "fuse-box",
+                "stars": 3968
+              }
+            }
+          ],
+          "description": "Bundle modules and assets.",
+          "node_type": "group",
+          "title": "Bundlers"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "UglifyJS",
+              "description": "Classic minifier (legacy for modern syntax).",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 5569059,
+                "language": "JavaScript",
+                "last_commit": "2024-11-22T08:11:38Z",
+                "owner": "mishoo",
+                "repo": "UglifyJS",
+                "stars": 13380
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Terser",
+              "description": "Minifier for ES6+.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 29097127,
+                "language": "JavaScript",
+                "last_commit": "2026-08-14T17:35:12Z",
+                "owner": "terser",
+                "repo": "terser",
+                "stars": 9320
+              }
+            }
+          ],
+          "description": "Minify JS for production.",
+          "node_type": "group",
+          "title": "Minimizers"
+        }
+      ],
       "title": "Build Tools"
     },
     {
-      "description": "Bundle modules and assets.",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "webpack",
-          "description": "Mature bundler for complex apps.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2026-08-18T21:33:20Z",
-            "owner": "webpack",
-            "repo": "webpack",
-            "stars": 65968
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Parcel",
-          "description": "Zero-config bundler.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2026-08-17T04:30:08Z",
-            "owner": "parcel-bundler",
-            "repo": "parcel",
-            "stars": 44018
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "esbuild",
-          "description": "Extremely fast bundler/transpiler.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Go",
-            "last_commit": "2026-08-09T17:20:12Z",
-            "owner": "evanw",
-            "repo": "esbuild",
-            "stars": 40009
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Rollup",
-          "description": "Great for libraries (ESM-first).",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2026-08-16T13:44:20Z",
-            "owner": "rollup",
-            "repo": "rollup",
-            "stars": 26303
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Microbundle",
-          "description": "Zero-config bundler for tiny modules.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2026-02-01T19:24:38Z",
-            "owner": "developit",
-            "repo": "microbundle",
-            "stars": 8129
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "FuseBox",
-          "description": "A bundler that does it right.",
-          "children": [],
-          "repo_info": {
-            "archived": true,
-            "language": "JavaScript",
-            "last_commit": "2022-12-01T07:53:31Z",
-            "owner": "fuse-box",
-            "repo": "fuse-box",
-            "stars": 3968
-          }
-        }
-      ],
-      "title": "Bundlers"
-    },
-    {
-      "description": "Minify JS for production.",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "UglifyJS",
-          "description": "Classic minifier (legacy for modern syntax).",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2024-11-22T08:11:38Z",
-            "owner": "mishoo",
-            "repo": "UglifyJS",
-            "stars": 13381
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Terser",
-          "description": "Minifier for ES6+.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2026-08-14T17:35:12Z",
-            "owner": "terser",
-            "repo": "terser",
-            "stars": 9320
-          }
-        }
-      ],
-      "title": "Minimizers"
-    },
-    {
-      "description": "",
+      "description": null,
       "items": [
         {
           "node_type": "item",
@@ -221,11 +288,12 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 245704608,
             "language": "TypeScript",
             "last_commit": "2026-08-17T20:27:22Z",
             "owner": "colinhacks",
             "repo": "zod",
-            "stars": 43486
+            "stars": 43491
           }
         },
         {
@@ -235,6 +303,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 24349832,
             "language": "TypeScript",
             "last_commit": "2026-08-12T09:58:42Z",
             "owner": "jquense",
@@ -249,6 +318,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 35914020,
             "language": "TypeScript",
             "last_commit": "2026-05-12T07:38:47Z",
             "owner": "ajv-validator",
@@ -263,212 +333,230 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 80294918,
             "language": "TypeScript",
             "last_commit": "2024-12-10T11:53:31Z",
             "owner": "gcanti",
             "repo": "io-ts",
-            "stars": 6809
+            "stars": 6810
           }
         }
       ],
       "title": "Type Checking & Validation"
     },
     {
-      "description": "",
-      "items": [],
+      "description": null,
+      "items": [
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Jest",
+              "description": "Painless JavaScript unit testing.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 15062869,
+                "language": "TypeScript",
+                "last_commit": "2026-08-19T07:13:08Z",
+                "owner": "jestjs",
+                "repo": "jest",
+                "stars": 45469
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Mocha",
+              "description": "Flexible test framework for Node and browser.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1451352,
+                "language": "JavaScript",
+                "last_commit": "2026-08-19T01:42:52Z",
+                "owner": "mochajs",
+                "repo": "mocha",
+                "stars": 22902
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "AVA",
+              "description": "Futuristic JavaScript test runner.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 26820798,
+                "language": "JavaScript",
+                "last_commit": "2026-06-17T10:19:10Z",
+                "owner": "avajs",
+                "repo": "ava",
+                "stars": 20832
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Tape",
+              "description": "Tap-producing test harness.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 6853358,
+                "language": "JavaScript",
+                "last_commit": "2026-06-18T18:06:06Z",
+                "owner": "tape-testing",
+                "repo": "tape",
+                "stars": 5798
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "QUnit",
+              "description": "Easy-to-use unit testing framework.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 259691,
+                "language": "JavaScript",
+                "last_commit": "2026-06-28T13:36:20Z",
+                "owner": "qunitjs",
+                "repo": "qunit",
+                "stars": 4034
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Test Runners"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Sinon",
+              "description": "Spies, stubs, and mocks.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 747698,
+                "language": "JavaScript",
+                "last_commit": "2026-08-05T17:16:30Z",
+                "owner": "sinonjs",
+                "repo": "sinon",
+                "stars": 9756
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Chai",
+              "description": "BDD/TDD assertion library.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 2931111,
+                "language": "JavaScript",
+                "last_commit": "2026-08-17T09:06:20Z",
+                "owner": "chaijs",
+                "repo": "chai",
+                "stars": 8267
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Assertion & Mocking"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Puppeteer",
+              "description": "Headless Chrome/Chromium automation.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 90796663,
+                "language": "TypeScript",
+                "last_commit": "2026-08-19T06:09:48Z",
+                "owner": "puppeteer",
+                "repo": "puppeteer",
+                "stars": 95466
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Playwright",
+              "description": "Automate Chromium/Firefox/WebKit.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 221981891,
+                "language": "TypeScript",
+                "last_commit": "2026-08-19T06:44:48Z",
+                "owner": "microsoft",
+                "repo": "playwright",
+                "stars": 94730
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "TestCafe",
+              "description": "Automated browser testing.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 34262857,
+                "language": "JavaScript",
+                "last_commit": "2026-08-12T03:00:49Z",
+                "owner": "DevExpress",
+                "repo": "testcafe",
+                "stars": 9907
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "E2E / Browser Automation"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Istanbul / nyc",
+              "description": "Coverage reporting.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 35312458,
+                "language": "JavaScript",
+                "last_commit": "2026-05-17T16:05:31Z",
+                "owner": "istanbuljs",
+                "repo": "nyc",
+                "stars": 5765
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "c8",
+              "description": "Coverage using V8’s built-in coverage.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 108371904,
+                "language": "JavaScript",
+                "last_commit": "2026-08-10T23:17:26Z",
+                "owner": "bcoe",
+                "repo": "c8",
+                "stars": 2118
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Coverage"
+        }
+      ],
       "title": "Testing"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "Jest",
-          "description": "Painless JavaScript unit testing.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-18T21:28:04Z",
-            "owner": "jestjs",
-            "repo": "jest",
-            "stars": 45470
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Mocha",
-          "description": "Flexible test framework for Node and browser.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2026-08-18T20:48:05Z",
-            "owner": "mochajs",
-            "repo": "mocha",
-            "stars": 22901
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "AVA",
-          "description": "Futuristic JavaScript test runner.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2026-06-17T10:19:10Z",
-            "owner": "avajs",
-            "repo": "ava",
-            "stars": 20832
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Tape",
-          "description": "Tap-producing test harness.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2026-06-18T18:06:06Z",
-            "owner": "tape-testing",
-            "repo": "tape",
-            "stars": 5798
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "QUnit",
-          "description": "Easy-to-use unit testing framework.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2026-06-28T13:36:20Z",
-            "owner": "qunitjs",
-            "repo": "qunit",
-            "stars": 4034
-          }
-        }
-      ],
-      "title": "Test Runners"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "Sinon",
-          "description": "Spies, stubs, and mocks.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2026-08-05T17:16:30Z",
-            "owner": "sinonjs",
-            "repo": "sinon",
-            "stars": 9756
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Chai",
-          "description": "BDD/TDD assertion library.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2026-08-17T09:06:20Z",
-            "owner": "chaijs",
-            "repo": "chai",
-            "stars": 8267
-          }
-        }
-      ],
-      "title": "Assertion & Mocking"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "Puppeteer",
-          "description": "Headless Chrome/Chromium automation.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-18T19:02:43Z",
-            "owner": "puppeteer",
-            "repo": "puppeteer",
-            "stars": 95463
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Playwright",
-          "description": "Automate Chromium/Firefox/WebKit.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-18T22:05:03Z",
-            "owner": "microsoft",
-            "repo": "playwright",
-            "stars": 94703
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "TestCafe",
-          "description": "Automated browser testing.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2026-08-12T03:00:49Z",
-            "owner": "DevExpress",
-            "repo": "testcafe",
-            "stars": 9907
-          }
-        }
-      ],
-      "title": "E2E / Browser Automation"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "Istanbul / nyc",
-          "description": "Coverage reporting.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2026-05-17T16:05:31Z",
-            "owner": "istanbuljs",
-            "repo": "nyc",
-            "stars": 5765
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "c8",
-          "description": "Coverage using V8’s built-in coverage.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2026-08-10T23:17:26Z",
-            "owner": "bcoe",
-            "repo": "c8",
-            "stars": 2118
-          }
-        }
-      ],
-      "title": "Coverage"
     },
     {
       "description": "Format, lint, and keep code healthy.",
@@ -480,11 +568,12 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 75104123,
             "language": "JavaScript",
-            "last_commit": "2026-08-18T23:15:07Z",
+            "last_commit": "2026-08-18T23:28:47Z",
             "owner": "prettier",
             "repo": "prettier",
-            "stars": 52204
+            "stars": 52205
           }
         },
         {
@@ -494,6 +583,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 21125024,
             "language": "JavaScript",
             "last_commit": "2026-03-19T23:03:16Z",
             "owner": "typicode",
@@ -508,11 +598,12 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 29891188,
             "language": "JavaScript",
             "last_commit": "2025-07-11T08:28:23Z",
             "owner": "standard",
             "repo": "standard",
-            "stars": 29426
+            "stars": 29427
           }
         },
         {
@@ -522,11 +613,12 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 11061773,
             "language": "JavaScript",
             "last_commit": "2026-08-18T16:33:39Z",
             "owner": "eslint",
             "repo": "eslint",
-            "stars": 27458
+            "stars": 27461
           }
         },
         {
@@ -536,1356 +628,1470 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 49704723,
             "language": "JavaScript",
             "last_commit": "2026-08-08T09:55:47Z",
             "owner": "lint-staged",
             "repo": "lint-staged",
-            "stars": 14713
+            "stars": 14715
           }
         }
       ],
       "title": "Code Quality"
     },
     {
-      "description": "",
-      "items": [],
+      "description": null,
+      "items": [
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Preact",
+              "description": "Fast, small React alternative.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 42283287,
+                "language": "JavaScript",
+                "last_commit": "2026-08-17T09:39:32Z",
+                "owner": "preactjs",
+                "repo": "preact",
+                "stars": 38823
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Alpine.js",
+              "description": "Minimal reactive framework.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 224663696,
+                "language": "HTML",
+                "last_commit": "2026-08-18T20:14:11Z",
+                "owner": "alpinejs",
+                "repo": "alpine",
+                "stars": 31864
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "UI Frameworks"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Zustand",
+              "description": "Small, fast state management for React.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 180328715,
+                "language": "TypeScript",
+                "last_commit": "2026-08-19T12:38:15Z",
+                "owner": "pmndrs",
+                "repo": "zustand",
+                "stars": 58584
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "MobX",
+              "description": "Simple, scalable state management.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 32215970,
+                "language": "TypeScript",
+                "last_commit": "2026-08-19T11:21:09Z",
+                "owner": "mobxjs",
+                "repo": "mobx",
+                "stars": 28203
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "State Management"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Three.js",
+              "description": "3D library.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 576201,
+                "language": "JavaScript",
+                "last_commit": "2026-08-19T11:27:02Z",
+                "owner": "mrdoob",
+                "repo": "three.js",
+                "stars": 114609
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "D3",
+              "description": "Visualization library for HTML/SVG/Canvas.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 943149,
+                "language": "Shell",
+                "last_commit": "2026-05-28T14:43:01Z",
+                "owner": "d3",
+                "repo": "d3",
+                "stars": 113493
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Chart.js",
+              "description": "Simple canvas charts.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 8843683,
+                "language": "JavaScript",
+                "last_commit": "2026-05-27T21:17:31Z",
+                "owner": "chartjs",
+                "repo": "Chart.js",
+                "stars": 67642
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "ECharts",
+              "description": "Powerful charting.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 9185792,
+                "language": "TypeScript",
+                "last_commit": "2026-08-04T09:07:09Z",
+                "owner": "apache",
+                "repo": "echarts",
+                "stars": 67093
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Vega",
+              "description": "Visualization grammar.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 7994556,
+                "language": "JavaScript",
+                "last_commit": "2026-08-14T17:19:30Z",
+                "owner": "vega",
+                "repo": "vega",
+                "stars": 11964
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Cytoscape.js",
+              "description": "Graph theory visualizations.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 2255947,
+                "language": "JavaScript",
+                "last_commit": "2026-08-14T17:06:37Z",
+                "owner": "cytoscape",
+                "repo": "cytoscape.js",
+                "stars": 11170
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Data Visualization"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Quill",
+              "description": "Rich text editor.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 5239185,
+                "language": "TypeScript",
+                "last_commit": "2025-07-25T06:09:23Z",
+                "owner": "slab",
+                "repo": "quill",
+                "stars": 47305
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Ace",
+              "description": "Browser code editor.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1028340,
+                "language": "JavaScript",
+                "last_commit": "2026-08-13T14:19:45Z",
+                "owner": "ajaxorg",
+                "repo": "ace",
+                "stars": 27141
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "TinyMCE",
+              "description": "Rich text editor.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 467471,
+                "language": "TypeScript",
+                "last_commit": "2026-08-17T01:15:12Z",
+                "owner": "tinymce",
+                "repo": "tinymce",
+                "stars": 16271
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "CodeMirror",
+              "description": "Code editor.",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "id": 146442061,
+                "language": "JavaScript",
+                "last_commit": "2026-04-15T10:24:43Z",
+                "owner": "codemirror",
+                "repo": "dev",
+                "stars": 7821
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Editors"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Leaflet",
+              "description": "Interactive maps.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 931135,
+                "language": "JavaScript",
+                "last_commit": "2026-08-17T12:53:01Z",
+                "owner": "Leaflet",
+                "repo": "Leaflet",
+                "stars": 45494
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Cesium",
+              "description": "3D globes and maps.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 3606738,
+                "language": "JavaScript",
+                "last_commit": "2026-08-18T22:21:32Z",
+                "owner": "CesiumGS",
+                "repo": "cesium",
+                "stars": 15582
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Maps"
+        }
+      ],
       "title": "Frontend"
     },
     {
-      "description": "",
+      "description": null,
       "items": [
         {
-          "node_type": "item",
-          "title": "Preact",
-          "description": "Fast, small React alternative.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2026-08-17T09:39:32Z",
-            "owner": "preactjs",
-            "repo": "preact",
-            "stars": 38820
-          }
+          "children": [
+            {
+              "node_type": "item",
+              "title": "axios",
+              "description": "HTTP client for Node and browser.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 23088740,
+                "language": "JavaScript",
+                "last_commit": "2026-08-18T10:13:13Z",
+                "owner": "axios",
+                "repo": "axios",
+                "stars": 109198
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "TanStack Query",
+              "description": "Async state + caching.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 207645083,
+                "language": "TypeScript",
+                "last_commit": "2026-08-19T08:11:14Z",
+                "owner": "TanStack",
+                "repo": "query",
+                "stars": 50164
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "SWR",
+              "description": "React Hooks data fetching.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 218115303,
+                "language": "TypeScript",
+                "last_commit": "2026-08-13T17:10:47Z",
+                "owner": "vercel",
+                "repo": "swr",
+                "stars": 32459
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "ky",
+              "description": "Tiny Fetch-based HTTP client.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 147375544,
+                "language": "TypeScript",
+                "last_commit": "2026-07-06T22:20:40Z",
+                "owner": "sindresorhus",
+                "repo": "ky",
+                "stars": 17030
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "API Clients & Data Fetching"
         },
         {
-          "node_type": "item",
-          "title": "Alpine.js",
-          "description": "Minimal reactive framework.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "HTML",
-            "last_commit": "2026-08-18T20:14:11Z",
-            "owner": "alpinejs",
-            "repo": "alpine",
-            "stars": 31863
-          }
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Prisma",
+              "description": "Type-safe ORM.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 192925833,
+                "language": "TypeScript",
+                "last_commit": "2026-08-19T12:31:29Z",
+                "owner": "prisma",
+                "repo": "prisma",
+                "stars": 47569
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "TypeORM",
+              "description": "ORM for TS/JS.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 52773157,
+                "language": "TypeScript",
+                "last_commit": "2026-08-13T06:47:32Z",
+                "owner": "typeorm",
+                "repo": "typeorm",
+                "stars": 36632
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Drizzle ORM",
+              "description": "SQL-first TypeScript ORM.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 379865325,
+                "language": "TypeScript",
+                "last_commit": "2026-08-19T09:27:02Z",
+                "owner": "drizzle-team",
+                "repo": "drizzle-orm",
+                "stars": 35517
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Sequelize",
+              "description": "Feature-rich ORM.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 790359,
+                "language": "TypeScript",
+                "last_commit": "2026-08-16T00:22:55Z",
+                "owner": "sequelize",
+                "repo": "sequelize",
+                "stars": 30371
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Mongoose",
+              "description": "MongoDB object modeling.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 597879,
+                "language": "JavaScript",
+                "last_commit": "2026-08-19T04:06:05Z",
+                "owner": "Automattic",
+                "repo": "mongoose",
+                "stars": 27472
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Knex",
+              "description": "SQL query builder.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 7363211,
+                "language": "JavaScript",
+                "last_commit": "2026-06-26T15:02:12Z",
+                "owner": "knex",
+                "repo": "knex",
+                "stars": 20340
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Kysely",
+              "description": "Type-safe SQL query builder.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 341139727,
+                "language": "TypeScript",
+                "last_commit": "2026-08-17T07:48:06Z",
+                "owner": "kysely-org",
+                "repo": "kysely",
+                "stars": 14134
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "ORM & Databases"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Agenda",
+              "description": "Job scheduling for Node.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 13945143,
+                "language": "HTML",
+                "last_commit": "2026-07-21T07:56:40Z",
+                "owner": "agenda",
+                "repo": "agenda",
+                "stars": 9696
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "BullMQ",
+              "description": "Redis-backed queue.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 162494199,
+                "language": "TypeScript",
+                "last_commit": "2026-08-19T07:55:50Z",
+                "owner": "taskforcesh",
+                "repo": "bullmq",
+                "stars": 9305
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Bree",
+              "description": "Job scheduler using worker threads.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 278104943,
+                "language": "JavaScript",
+                "last_commit": "2026-02-17T22:09:07Z",
+                "owner": "breejs",
+                "repo": "bree",
+                "stars": 3290
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Queues & Jobs"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Socket.IO",
+              "description": "Realtime framework with fallbacks.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 557980,
+                "language": "TypeScript",
+                "last_commit": "2026-07-24T14:44:59Z",
+                "owner": "socketio",
+                "repo": "socket.io",
+                "stars": 63190
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "ws",
+              "description": "Fast WebSocket implementation.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 2744972,
+                "language": "JavaScript",
+                "last_commit": "2026-08-13T07:38:51Z",
+                "owner": "websockets",
+                "repo": "ws",
+                "stars": 22790
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "WebSockets"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Strapi",
+              "description": "Open-source headless CMS.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 43441403,
+                "language": "TypeScript",
+                "last_commit": "2026-08-19T12:34:25Z",
+                "owner": "strapi",
+                "repo": "strapi",
+                "stars": 72967
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Ghost",
+              "description": "Publishing platform.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 9852918,
+                "language": "JavaScript",
+                "last_commit": "2026-08-19T12:38:37Z",
+                "owner": "TryGhost",
+                "repo": "Ghost",
+                "stars": 54796
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "KeystoneJS",
+              "description": "CMS + app framework.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 128193054,
+                "language": "TypeScript",
+                "last_commit": "2026-08-18T05:59:51Z",
+                "owner": "keystonejs",
+                "repo": "keystone",
+                "stars": 9958
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "CMS"
         }
       ],
-      "title": "UI Frameworks"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "Zustand",
-          "description": "Small, fast state management for React.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-18T00:31:47Z",
-            "owner": "pmndrs",
-            "repo": "zustand",
-            "stars": 58583
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "MobX",
-          "description": "Simple, scalable state management.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-17T02:12:22Z",
-            "owner": "mobxjs",
-            "repo": "mobx",
-            "stars": 28202
-          }
-        }
-      ],
-      "title": "State Management"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "Three.js",
-          "description": "3D library.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2026-08-18T20:18:18Z",
-            "owner": "mrdoob",
-            "repo": "three.js",
-            "stars": 114596
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "D3",
-          "description": "Visualization library for HTML/SVG/Canvas.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Shell",
-            "last_commit": "2026-05-28T14:43:01Z",
-            "owner": "d3",
-            "repo": "d3",
-            "stars": 113489
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Chart.js",
-          "description": "Simple canvas charts.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2026-05-27T21:17:31Z",
-            "owner": "chartjs",
-            "repo": "Chart.js",
-            "stars": 67641
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "ECharts",
-          "description": "Powerful charting.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-04T09:07:09Z",
-            "owner": "apache",
-            "repo": "echarts",
-            "stars": 67092
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Vega",
-          "description": "Visualization grammar.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2026-08-14T17:19:30Z",
-            "owner": "vega",
-            "repo": "vega",
-            "stars": 11962
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Cytoscape.js",
-          "description": "Graph theory visualizations.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2026-08-14T17:06:37Z",
-            "owner": "cytoscape",
-            "repo": "cytoscape.js",
-            "stars": 11166
-          }
-        }
-      ],
-      "title": "Data Visualization"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "Quill",
-          "description": "Rich text editor.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2025-07-25T06:09:23Z",
-            "owner": "slab",
-            "repo": "quill",
-            "stars": 47303
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Ace",
-          "description": "Browser code editor.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2026-08-13T14:19:45Z",
-            "owner": "ajaxorg",
-            "repo": "ace",
-            "stars": 27141
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "TinyMCE",
-          "description": "Rich text editor.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-17T01:15:12Z",
-            "owner": "tinymce",
-            "repo": "tinymce",
-            "stars": 16270
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "CodeMirror",
-          "description": "Code editor.",
-          "children": [],
-          "repo_info": {
-            "archived": true,
-            "language": "JavaScript",
-            "last_commit": "2026-04-15T10:24:43Z",
-            "owner": "codemirror",
-            "repo": "dev",
-            "stars": 7821
-          }
-        }
-      ],
-      "title": "Editors"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "Leaflet",
-          "description": "Interactive maps.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2026-08-17T12:53:01Z",
-            "owner": "Leaflet",
-            "repo": "Leaflet",
-            "stars": 45492
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Cesium",
-          "description": "3D globes and maps.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2026-08-18T22:21:32Z",
-            "owner": "CesiumGS",
-            "repo": "cesium",
-            "stars": 15577
-          }
-        }
-      ],
-      "title": "Maps"
-    },
-    {
-      "description": "",
-      "items": [],
       "title": "Backend"
     },
     {
-      "description": "",
+      "description": null,
       "items": [
         {
-          "node_type": "item",
-          "title": "axios",
-          "description": "HTTP client for Node and browser.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2026-08-18T10:13:13Z",
-            "owner": "axios",
-            "repo": "axios",
-            "stars": 109197
-          }
+          "children": [
+            {
+              "node_type": "item",
+              "title": "PDF.js",
+              "description": "PDF reader in JavaScript.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1663468,
+                "language": "JavaScript",
+                "last_commit": "2026-08-19T12:10:36Z",
+                "owner": "mozilla",
+                "repo": "pdf.js",
+                "stars": 53752
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "jsPDF",
+              "description": "PDF generation.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 402046,
+                "language": "JavaScript",
+                "last_commit": "2026-08-09T08:59:34Z",
+                "owner": "parallax",
+                "repo": "jsPDF",
+                "stars": 31277
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Papa Parse",
+              "description": "CSV parsing.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 13395052,
+                "language": "JavaScript",
+                "last_commit": "2026-08-13T12:36:25Z",
+                "owner": "mholt",
+                "repo": "PapaParse",
+                "stars": 13542
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "diff2html",
+              "description": "Git diff → pretty HTML.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 23483401,
+                "language": "TypeScript",
+                "last_commit": "2026-05-08T22:05:30Z",
+                "owner": "rtfpessoa",
+                "repo": "diff2html",
+                "stars": 3396
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Files"
         },
         {
-          "node_type": "item",
-          "title": "TanStack Query",
-          "description": "Async state + caching.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-18T19:35:01Z",
-            "owner": "TanStack",
-            "repo": "query",
-            "stars": 50157
-          }
+          "children": [
+            {
+              "node_type": "item",
+              "title": "lodash",
+              "description": "Utility library.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 3955647,
+                "language": "JavaScript",
+                "last_commit": "2026-07-03T19:48:01Z",
+                "owner": "lodash",
+                "repo": "lodash",
+                "stars": 61291
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "underscore",
+              "description": "Utility belt.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 349241,
+                "language": "JavaScript",
+                "last_commit": "2026-08-12T13:38:20Z",
+                "owner": "jashkenas",
+                "repo": "underscore",
+                "stars": 27333
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "ramda",
+              "description": "Practical FP library.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 10851820,
+                "language": "JavaScript",
+                "last_commit": "2026-07-26T15:18:52Z",
+                "owner": "ramda",
+                "repo": "ramda",
+                "stars": 24060
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "fxjs",
+              "description": "Lazy evaluation + concurrency helpers.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 411941706,
+                "language": "TypeScript",
+                "last_commit": "2026-08-08T14:05:49Z",
+                "owner": "marpple",
+                "repo": "FxTS",
+                "stars": 1166
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Functional Programming"
         },
         {
-          "node_type": "item",
-          "title": "SWR",
-          "description": "React Hooks data fetching.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-13T17:10:47Z",
-            "owner": "vercel",
-            "repo": "swr",
-            "stars": 32457
-          }
+          "children": [
+            {
+              "node_type": "item",
+              "title": "RxJS",
+              "description": "Reactive programming library.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 32247847,
+                "language": "TypeScript",
+                "last_commit": "2026-08-08T23:15:21Z",
+                "owner": "ReactiveX",
+                "repo": "rxjs",
+                "stars": 31698
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Bacon.js",
+              "description": "FRP library.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 3605299,
+                "language": "TypeScript",
+                "last_commit": "2025-04-18T11:27:53Z",
+                "owner": "baconjs",
+                "repo": "bacon.js",
+                "stars": 6457
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Most.js",
+              "description": "High-performance FRP library.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 13815852,
+                "language": "JavaScript",
+                "last_commit": "2022-12-06T17:07:17Z",
+                "owner": "cujojs",
+                "repo": "most",
+                "stars": 3489
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Reactive Programming"
         },
         {
-          "node_type": "item",
-          "title": "ky",
-          "description": "Tiny Fetch-based HTTP client.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-07-06T22:20:40Z",
-            "owner": "sindresorhus",
-            "repo": "ky",
-            "stars": 17029
-          }
+          "children": [
+            {
+              "node_type": "item",
+              "title": "immutable-js",
+              "description": "Persistent data structures.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 21413198,
+                "language": "TypeScript",
+                "last_commit": "2026-08-17T09:22:33Z",
+                "owner": "immutable-js",
+                "repo": "immutable-js",
+                "stars": 33039
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "js-sdsl",
+              "description": "STL-like containers for JS.",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "id": 529519778,
+                "language": "TypeScript",
+                "last_commit": "2022-08-27T08:00:47Z",
+                "owner": "ZLY201",
+                "repo": "js-sdsl",
+                "stars": 9
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Data Structures"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "dayjs",
+              "description": "Small Moment-like API.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 128907699,
+                "language": "JavaScript",
+                "last_commit": "2026-08-18T04:15:17Z",
+                "owner": "iamkun",
+                "repo": "dayjs",
+                "stars": 48666
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "date-fns",
+              "description": "Modern date utility library.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 24841635,
+                "language": "TypeScript",
+                "last_commit": "2026-08-10T08:47:59Z",
+                "owner": "date-fns",
+                "repo": "date-fns",
+                "stars": 36631
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "luxon",
+              "description": "Dates and times with Intl.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 47118129,
+                "language": "JavaScript",
+                "last_commit": "2026-08-09T12:44:46Z",
+                "owner": "moment",
+                "repo": "luxon",
+                "stars": 16443
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "ms",
+              "description": "Millisecond conversion utility.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 3655872,
+                "language": "TypeScript",
+                "last_commit": "2026-05-20T22:24:50Z",
+                "owner": "vercel",
+                "repo": "ms",
+                "stars": 5545
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Date & Time"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "query-string",
+              "description": "Parse/stringify URL query strings.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 14375002,
+                "language": "JavaScript",
+                "last_commit": "2026-08-06T17:05:34Z",
+                "owner": "sindresorhus",
+                "repo": "query-string",
+                "stars": 6904
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "he",
+              "description": "HTML entity encoder/decoder.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 10930707,
+                "language": "JavaScript",
+                "last_commit": "2021-12-29T22:20:03Z",
+                "owner": "mathiasbynens",
+                "repo": "he",
+                "stars": 3598
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "sprintf.js",
+              "description": "sprintf implementation.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 9175790,
+                "language": "JavaScript",
+                "last_commit": "2024-04-05T01:22:42Z",
+                "owner": "alexei",
+                "repo": "sprintf.js",
+                "stars": 2139
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "String"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Numeral.js",
+              "description": "Number formatting.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 6036101,
+                "language": "JavaScript",
+                "last_commit": "2026-02-15T15:16:26Z",
+                "owner": "adamwdraper",
+                "repo": "Numeral-js",
+                "stars": 9704
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "chance",
+              "description": "Random generator helpers.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 10828733,
+                "language": "JavaScript",
+                "last_commit": "2025-05-18T21:03:04Z",
+                "owner": "chancejs",
+                "repo": "chancejs",
+                "stars": 6540
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Fraction.js",
+              "description": "Rational numbers.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 17650856,
+                "language": "JavaScript",
+                "last_commit": "2025-09-26T19:34:28Z",
+                "owner": "rawify",
+                "repo": "Fraction.js",
+                "stars": 690
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Number"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "localForage",
+              "description": "Offline storage wrapper.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 14003349,
+                "language": "JavaScript",
+                "last_commit": "2024-07-30T20:27:14Z",
+                "owner": "localForage",
+                "repo": "localForage",
+                "stars": 25803
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "js-cookie",
+              "description": "Cookie API.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 32531480,
+                "language": "JavaScript",
+                "last_commit": "2026-08-10T21:32:39Z",
+                "owner": "js-cookie",
+                "repo": "js-cookie",
+                "stars": 22594
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Dexie.js",
+              "description": "IndexedDB wrapper.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 17203748,
+                "language": "TypeScript",
+                "last_commit": "2026-08-17T13:25:06Z",
+                "owner": "dexie",
+                "repo": "Dexie.js",
+                "stars": 14536
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Storage"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "chroma.js",
+              "description": "Color manipulations.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 2960985,
+                "language": "JavaScript",
+                "last_commit": "2026-06-01T23:36:19Z",
+                "owner": "gka",
+                "repo": "chroma.js",
+                "stars": 10574
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "randomColor",
+              "description": "Color generator.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 18573791,
+                "language": "JavaScript",
+                "last_commit": "2025-12-03T08:17:42Z",
+                "owner": "davidmerfield",
+                "repo": "randomColor",
+                "stars": 6125
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "TinyColor",
+              "description": "Color manipulation/conversion.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1973790,
+                "language": "JavaScript",
+                "last_commit": "2024-06-26T15:48:44Z",
+                "owner": "bgrins",
+                "repo": "TinyColor",
+                "stars": 5247
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Color"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "i18next",
+              "description": "Internationalization framework.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 2994517,
+                "language": "JavaScript",
+                "last_commit": "2026-07-09T13:41:39Z",
+                "owner": "i18next",
+                "repo": "i18next",
+                "stars": 8619
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "ttag",
+              "description": "Modern i18n using tagged templates.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 78681287,
+                "language": "TypeScript",
+                "last_commit": "2025-07-01T10:25:38Z",
+                "owner": "ttag-org",
+                "repo": "ttag",
+                "stars": 354
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "I18n & L10n"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "async",
+              "description": "Async utilities.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 698041,
+                "language": "JavaScript",
+                "last_commit": "2026-08-07T17:03:35Z",
+                "owner": "caolan",
+                "repo": "async",
+                "stars": 28138
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "p-limit",
+              "description": "Limit concurrent promises.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 71542716,
+                "language": "JavaScript",
+                "last_commit": "2026-07-20T20:18:50Z",
+                "owner": "sindresorhus",
+                "repo": "p-limit",
+                "stars": 2915
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "p-retry",
+              "description": "Retry async functions.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 71542126,
+                "language": "JavaScript",
+                "last_commit": "2026-03-26T16:08:20Z",
+                "owner": "sindresorhus",
+                "repo": "p-retry",
+                "stars": 1028
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Control Flow"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "page.js",
+              "description": "Micro client-side router.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 4010478,
+                "language": "JavaScript",
+                "last_commit": "2023-06-27T15:47:06Z",
+                "owner": "visionmedia",
+                "repo": "page.js",
+                "stars": 7679
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "director",
+              "description": "Isomorphic router.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 626219,
+                "language": "JavaScript",
+                "last_commit": "2020-12-26T19:39:17Z",
+                "owner": "flatiron",
+                "repo": "director",
+                "stars": 5575
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Routing"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "DOMPurify",
+              "description": "XSS sanitizer for HTML/SVG/MathML.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 16927692,
+                "language": "JavaScript",
+                "last_commit": "2026-08-19T11:57:28Z",
+                "owner": "cure53",
+                "repo": "DOMPurify",
+                "stars": 17315
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "js-xss",
+              "description": "Sanitize untrusted HTML.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 5857265,
+                "language": "HTML",
+                "last_commit": "2026-05-06T11:36:47Z",
+                "owner": "leizongmin",
+                "repo": "js-xss",
+                "stars": 5314
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "sanitize-html",
+              "description": "HTML sanitizer.",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "id": 12711522,
+                "language": "JavaScript",
+                "last_commit": "2026-02-26T19:54:30Z",
+                "owner": "apostrophecms",
+                "repo": "sanitize-html",
+                "stars": 4119
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Security"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "winston",
+              "description": "Multi-transport async logging.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1206546,
+                "language": "JavaScript",
+                "last_commit": "2026-07-20T19:12:28Z",
+                "owner": "winstonjs",
+                "repo": "winston",
+                "stars": 24503
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "pino",
+              "description": "Very fast logger for Node.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 51840802,
+                "language": "JavaScript",
+                "last_commit": "2026-08-13T18:52:54Z",
+                "owner": "pinojs",
+                "repo": "pino",
+                "stars": 18145
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "loglevel",
+              "description": "Minimal log level wrapper.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 8976707,
+                "language": "JavaScript",
+                "last_commit": "2025-03-20T15:13:43Z",
+                "owner": "pimterry",
+                "repo": "loglevel",
+                "stars": 2747
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Logging"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "benchmark.js",
+              "description": "Benchmarking library.",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "id": 1800451,
+                "language": "JavaScript",
+                "last_commit": "2022-12-22T13:38:09Z",
+                "owner": "bestiejs",
+                "repo": "benchmark.js",
+                "stars": 5455
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "matcha",
+              "description": "Simple benchmarking runner.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 2915220,
+                "language": "JavaScript",
+                "last_commit": "2020-09-04T21:26:52Z",
+                "owner": "logicalparadox",
+                "repo": "matcha",
+                "stars": 561
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Benchmarking"
         }
       ],
-      "title": "API Clients & Data Fetching"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "Prisma",
-          "description": "Type-safe ORM.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-18T20:08:47Z",
-            "owner": "prisma",
-            "repo": "prisma",
-            "stars": 47568
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "TypeORM",
-          "description": "ORM for TS/JS.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-13T06:47:32Z",
-            "owner": "typeorm",
-            "repo": "typeorm",
-            "stars": 36631
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Drizzle ORM",
-          "description": "SQL-first TypeScript ORM.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-18T17:31:05Z",
-            "owner": "drizzle-team",
-            "repo": "drizzle-orm",
-            "stars": 35512
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Sequelize",
-          "description": "Feature-rich ORM.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-16T00:22:55Z",
-            "owner": "sequelize",
-            "repo": "sequelize",
-            "stars": 30372
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Mongoose",
-          "description": "MongoDB object modeling.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2026-08-18T20:18:10Z",
-            "owner": "Automattic",
-            "repo": "mongoose",
-            "stars": 27472
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Knex",
-          "description": "SQL query builder.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2026-06-26T15:02:12Z",
-            "owner": "knex",
-            "repo": "knex",
-            "stars": 20340
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Kysely",
-          "description": "Type-safe SQL query builder.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-17T07:48:06Z",
-            "owner": "kysely-org",
-            "repo": "kysely",
-            "stars": 14133
-          }
-        }
-      ],
-      "title": "ORM & Databases"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "Agenda",
-          "description": "Job scheduling for Node.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "HTML",
-            "last_commit": "2026-07-21T07:56:40Z",
-            "owner": "agenda",
-            "repo": "agenda",
-            "stars": 9695
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "BullMQ",
-          "description": "Redis-backed queue.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-18T21:08:18Z",
-            "owner": "taskforcesh",
-            "repo": "bullmq",
-            "stars": 9305
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Bree",
-          "description": "Job scheduler using worker threads.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2026-02-17T22:09:07Z",
-            "owner": "breejs",
-            "repo": "bree",
-            "stars": 3290
-          }
-        }
-      ],
-      "title": "Queues & Jobs"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "Socket.IO",
-          "description": "Realtime framework with fallbacks.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-07-24T14:44:59Z",
-            "owner": "socketio",
-            "repo": "socket.io",
-            "stars": 63190
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "ws",
-          "description": "Fast WebSocket implementation.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2026-08-13T07:38:51Z",
-            "owner": "websockets",
-            "repo": "ws",
-            "stars": 22791
-          }
-        }
-      ],
-      "title": "WebSockets"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "Strapi",
-          "description": "Open-source headless CMS.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-18T15:57:57Z",
-            "owner": "strapi",
-            "repo": "strapi",
-            "stars": 72963
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Ghost",
-          "description": "Publishing platform.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2026-08-18T23:00:02Z",
-            "owner": "TryGhost",
-            "repo": "Ghost",
-            "stars": 54795
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "KeystoneJS",
-          "description": "CMS + app framework.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-18T05:59:51Z",
-            "owner": "keystonejs",
-            "repo": "keystone",
-            "stars": 9953
-          }
-        }
-      ],
-      "title": "CMS"
-    },
-    {
-      "description": "",
-      "items": [],
       "title": "Utilities"
     },
     {
-      "description": "",
+      "description": null,
       "items": [
         {
-          "node_type": "item",
-          "title": "PDF.js",
-          "description": "PDF reader in JavaScript.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2026-08-18T18:14:39Z",
-            "owner": "mozilla",
-            "repo": "pdf.js",
-            "stars": 53751
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "jsPDF",
-          "description": "PDF generation.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2026-08-09T08:59:34Z",
-            "owner": "parallax",
-            "repo": "jsPDF",
-            "stars": 31275
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Papa Parse",
-          "description": "CSV parsing.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2026-08-13T12:36:25Z",
-            "owner": "mholt",
-            "repo": "PapaParse",
-            "stars": 13542
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "diff2html",
-          "description": "Git diff → pretty HTML.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-05-08T22:05:30Z",
-            "owner": "rtfpessoa",
-            "repo": "diff2html",
-            "stars": 3396
-          }
+          "children": [
+            {
+              "node_type": "item",
+              "title": "zx",
+              "description": "Write shell scripts in JavaScript.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 364474335,
+                "language": "JavaScript",
+                "last_commit": "2026-08-14T07:30:27Z",
+                "owner": "google",
+                "repo": "zx",
+                "stars": 45675
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "commander",
+              "description": "CLI framework.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 2206953,
+                "language": "JavaScript",
+                "last_commit": "2026-08-19T10:22:35Z",
+                "owner": "tj",
+                "repo": "commander.js",
+                "stars": 28365
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "yargs",
+              "description": "CLI argument parsing.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 14210523,
+                "language": "JavaScript",
+                "last_commit": "2026-08-07T03:15:41Z",
+                "owner": "yargs",
+                "repo": "yargs",
+                "stars": 11512
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "oclif",
+              "description": "Opinionated CLI framework.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 117152902,
+                "language": "TypeScript",
+                "last_commit": "2026-08-10T14:16:01Z",
+                "owner": "oclif",
+                "repo": "oclif",
+                "stars": 9578
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "CLI"
         }
       ],
-      "title": "Files"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "lodash",
-          "description": "Utility library.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2026-07-03T19:48:01Z",
-            "owner": "lodash",
-            "repo": "lodash",
-            "stars": 61291
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "underscore",
-          "description": "Utility belt.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2026-08-12T13:38:20Z",
-            "owner": "jashkenas",
-            "repo": "underscore",
-            "stars": 27332
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "ramda",
-          "description": "Practical FP library.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2026-07-26T15:18:52Z",
-            "owner": "ramda",
-            "repo": "ramda",
-            "stars": 24060
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "fxjs",
-          "description": "Lazy evaluation + concurrency helpers.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-08T14:05:49Z",
-            "owner": "marpple",
-            "repo": "FxTS",
-            "stars": 1166
-          }
-        }
-      ],
-      "title": "Functional Programming"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "RxJS",
-          "description": "Reactive programming library.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-08T23:15:21Z",
-            "owner": "ReactiveX",
-            "repo": "rxjs",
-            "stars": 31700
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Bacon.js",
-          "description": "FRP library.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2025-04-18T11:27:53Z",
-            "owner": "baconjs",
-            "repo": "bacon.js",
-            "stars": 6457
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Most.js",
-          "description": "High-performance FRP library.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2022-12-06T17:07:17Z",
-            "owner": "cujojs",
-            "repo": "most",
-            "stars": 3489
-          }
-        }
-      ],
-      "title": "Reactive Programming"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "immutable-js",
-          "description": "Persistent data structures.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-17T09:22:33Z",
-            "owner": "immutable-js",
-            "repo": "immutable-js",
-            "stars": 33039
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "js-sdsl",
-          "description": "STL-like containers for JS.",
-          "children": [],
-          "repo_info": {
-            "archived": true,
-            "language": "TypeScript",
-            "last_commit": "2022-08-27T08:00:47Z",
-            "owner": "ZLY201",
-            "repo": "js-sdsl",
-            "stars": 9
-          }
-        }
-      ],
-      "title": "Data Structures"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "dayjs",
-          "description": "Small Moment-like API.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2026-08-18T04:15:17Z",
-            "owner": "iamkun",
-            "repo": "dayjs",
-            "stars": 48667
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "date-fns",
-          "description": "Modern date utility library.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-10T08:47:59Z",
-            "owner": "date-fns",
-            "repo": "date-fns",
-            "stars": 36628
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "luxon",
-          "description": "Dates and times with Intl.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2026-08-09T12:44:46Z",
-            "owner": "moment",
-            "repo": "luxon",
-            "stars": 16443
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "ms",
-          "description": "Millisecond conversion utility.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-05-20T22:24:50Z",
-            "owner": "vercel",
-            "repo": "ms",
-            "stars": 5545
-          }
-        }
-      ],
-      "title": "Date & Time"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "query-string",
-          "description": "Parse/stringify URL query strings.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2026-08-06T17:05:34Z",
-            "owner": "sindresorhus",
-            "repo": "query-string",
-            "stars": 6904
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "he",
-          "description": "HTML entity encoder/decoder.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2021-12-29T22:20:03Z",
-            "owner": "mathiasbynens",
-            "repo": "he",
-            "stars": 3598
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "sprintf.js",
-          "description": "sprintf implementation.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2024-04-05T01:22:42Z",
-            "owner": "alexei",
-            "repo": "sprintf.js",
-            "stars": 2139
-          }
-        }
-      ],
-      "title": "String"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "Numeral.js",
-          "description": "Number formatting.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2026-02-15T15:16:26Z",
-            "owner": "adamwdraper",
-            "repo": "Numeral-js",
-            "stars": 9704
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "chance",
-          "description": "Random generator helpers.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2025-05-18T21:03:04Z",
-            "owner": "chancejs",
-            "repo": "chancejs",
-            "stars": 6540
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Fraction.js",
-          "description": "Rational numbers.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2025-09-26T19:34:28Z",
-            "owner": "rawify",
-            "repo": "Fraction.js",
-            "stars": 690
-          }
-        }
-      ],
-      "title": "Number"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "localForage",
-          "description": "Offline storage wrapper.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2024-07-30T20:27:14Z",
-            "owner": "localForage",
-            "repo": "localForage",
-            "stars": 25803
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "js-cookie",
-          "description": "Cookie API.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2026-08-10T21:32:39Z",
-            "owner": "js-cookie",
-            "repo": "js-cookie",
-            "stars": 22595
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Dexie.js",
-          "description": "IndexedDB wrapper.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-17T13:25:06Z",
-            "owner": "dexie",
-            "repo": "Dexie.js",
-            "stars": 14536
-          }
-        }
-      ],
-      "title": "Storage"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "chroma.js",
-          "description": "Color manipulations.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2026-06-01T23:36:19Z",
-            "owner": "gka",
-            "repo": "chroma.js",
-            "stars": 10574
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "randomColor",
-          "description": "Color generator.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2025-12-03T08:17:42Z",
-            "owner": "davidmerfield",
-            "repo": "randomColor",
-            "stars": 6125
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "TinyColor",
-          "description": "Color manipulation/conversion.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2024-06-26T15:48:44Z",
-            "owner": "bgrins",
-            "repo": "TinyColor",
-            "stars": 5247
-          }
-        }
-      ],
-      "title": "Color"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "i18next",
-          "description": "Internationalization framework.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2026-07-09T13:41:39Z",
-            "owner": "i18next",
-            "repo": "i18next",
-            "stars": 8617
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "ttag",
-          "description": "Modern i18n using tagged templates.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2025-07-01T10:25:38Z",
-            "owner": "ttag-org",
-            "repo": "ttag",
-            "stars": 354
-          }
-        }
-      ],
-      "title": "I18n & L10n"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "async",
-          "description": "Async utilities.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2026-08-07T17:03:35Z",
-            "owner": "caolan",
-            "repo": "async",
-            "stars": 28139
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "p-limit",
-          "description": "Limit concurrent promises.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2026-07-20T20:18:50Z",
-            "owner": "sindresorhus",
-            "repo": "p-limit",
-            "stars": 2914
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "p-retry",
-          "description": "Retry async functions.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2026-03-26T16:08:20Z",
-            "owner": "sindresorhus",
-            "repo": "p-retry",
-            "stars": 1026
-          }
-        }
-      ],
-      "title": "Control Flow"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "page.js",
-          "description": "Micro client-side router.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2023-06-27T15:47:06Z",
-            "owner": "visionmedia",
-            "repo": "page.js",
-            "stars": 7679
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "director",
-          "description": "Isomorphic router.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2020-12-26T19:39:17Z",
-            "owner": "flatiron",
-            "repo": "director",
-            "stars": 5575
-          }
-        }
-      ],
-      "title": "Routing"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "DOMPurify",
-          "description": "XSS sanitizer for HTML/SVG/MathML.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2026-08-18T14:59:47Z",
-            "owner": "cure53",
-            "repo": "DOMPurify",
-            "stars": 17312
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "js-xss",
-          "description": "Sanitize untrusted HTML.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "HTML",
-            "last_commit": "2026-05-06T11:36:47Z",
-            "owner": "leizongmin",
-            "repo": "js-xss",
-            "stars": 5314
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "sanitize-html",
-          "description": "HTML sanitizer.",
-          "children": [],
-          "repo_info": {
-            "archived": true,
-            "language": "JavaScript",
-            "last_commit": "2026-02-26T19:54:30Z",
-            "owner": "apostrophecms",
-            "repo": "sanitize-html",
-            "stars": 4119
-          }
-        }
-      ],
-      "title": "Security"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "winston",
-          "description": "Multi-transport async logging.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2026-07-20T19:12:28Z",
-            "owner": "winstonjs",
-            "repo": "winston",
-            "stars": 24504
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "pino",
-          "description": "Very fast logger for Node.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2026-08-13T18:52:54Z",
-            "owner": "pinojs",
-            "repo": "pino",
-            "stars": 18144
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "loglevel",
-          "description": "Minimal log level wrapper.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2025-03-20T15:13:43Z",
-            "owner": "pimterry",
-            "repo": "loglevel",
-            "stars": 2747
-          }
-        }
-      ],
-      "title": "Logging"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "benchmark.js",
-          "description": "Benchmarking library.",
-          "children": [],
-          "repo_info": {
-            "archived": true,
-            "language": "JavaScript",
-            "last_commit": "2022-12-22T13:38:09Z",
-            "owner": "bestiejs",
-            "repo": "benchmark.js",
-            "stars": 5455
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "matcha",
-          "description": "Simple benchmarking runner.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2020-09-04T21:26:52Z",
-            "owner": "logicalparadox",
-            "repo": "matcha",
-            "stars": 561
-          }
-        }
-      ],
-      "title": "Benchmarking"
-    },
-    {
-      "description": "",
-      "items": [],
       "title": "Cross-Platform"
     },
     {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "zx",
-          "description": "Write shell scripts in JavaScript.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2026-08-14T07:30:27Z",
-            "owner": "google",
-            "repo": "zx",
-            "stars": 45669
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "commander",
-          "description": "CLI framework.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2026-08-17T04:06:15Z",
-            "owner": "tj",
-            "repo": "commander.js",
-            "stars": 28364
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "yargs",
-          "description": "CLI argument parsing.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2026-08-07T03:15:41Z",
-            "owner": "yargs",
-            "repo": "yargs",
-            "stars": 11512
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "oclif",
-          "description": "Opinionated CLI framework.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-10T14:16:01Z",
-            "owner": "oclif",
-            "repo": "oclif",
-            "stars": 9578
-          }
-        }
-      ],
-      "title": "CLI"
-    },
-    {
-      "description": "",
+      "description": null,
       "items": [
         {
           "node_type": "item",
@@ -1894,11 +2100,12 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 598342280,
             "language": "TypeScript",
-            "last_commit": "2026-08-18T21:04:01Z",
+            "last_commit": "2026-08-19T03:39:18Z",
             "owner": "langchain-ai",
             "repo": "langchainjs",
-            "stars": 18113
+            "stars": 18118
           }
         },
         {
@@ -1908,18 +2115,19 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 438419937,
             "language": "TypeScript",
-            "last_commit": "2026-08-18T23:09:38Z",
+            "last_commit": "2026-08-19T01:12:35Z",
             "owner": "openai",
             "repo": "openai-node",
-            "stars": 11124
+            "stars": 11125
           }
         }
       ],
       "title": "Generative AI"
     },
     {
-      "description": "",
+      "description": null,
       "items": [
         {
           "node_type": "item",
@@ -1928,11 +2136,12 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 126577260,
             "language": "JavaScript",
             "last_commit": "2026-07-26T02:43:08Z",
             "owner": "trekhleb",
             "repo": "javascript-algorithms",
-            "stars": 196517
+            "stars": 196522
           }
         },
         {
@@ -1942,6 +2151,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 74791366,
             "language": "JavaScript",
             "last_commit": "2024-07-29T07:24:37Z",
             "owner": "ryanmcdermott",
@@ -1951,11 +2161,114 @@
         }
       ],
       "title": "Articles & Posts"
+    },
+    {
+      "description": null,
+      "items": [
+        {
+          "node_type": "item",
+          "title": "You Don’t Know JS Yet",
+          "description": "Deep dive series on JS fundamentals and internals.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 14440270,
+            "language": null,
+            "last_commit": "2026-02-15T04:36:44Z",
+            "owner": "getify",
+            "repo": "You-Dont-Know-JS",
+            "stars": 184711
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "braziljs/js-the-right-way",
+          "description": "Quick reference for JS best practices.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 5334951,
+            "language": "HTML",
+            "last_commit": "2026-07-29T22:18:41Z",
+            "owner": "jstherightway",
+            "repo": "js-the-right-way",
+            "stars": 8676
+          }
+        }
+      ],
+      "title": "Worth Reading"
+    },
+    {
+      "description": null,
+      "items": [
+        {
+          "node_type": "item",
+          "title": "sindresorhus/awesome",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 21737465,
+            "language": null,
+            "last_commit": "2026-08-18T13:28:50Z",
+            "owner": "sindresorhus",
+            "repo": "awesome",
+            "stars": 497666
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "enaqx/awesome-react",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 22670857,
+            "language": null,
+            "last_commit": "2026-07-20T07:31:52Z",
+            "owner": "enaqx",
+            "repo": "awesome-react",
+            "stars": 74334
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "denolib/awesome-deno",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 163803160,
+            "language": null,
+            "last_commit": "2026-08-14T00:57:28Z",
+            "owner": "denolib",
+            "repo": "awesome-deno",
+            "stars": 4410
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "apvarun/awesome-bun",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 511742583,
+            "language": null,
+            "last_commit": "2025-07-20T10:01:29Z",
+            "owner": "oven-sh",
+            "repo": "awesome-bun",
+            "stars": 3643
+          }
+        }
+      ],
+      "title": "Other Awesome Lists"
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-18T23:16:28.487Z",
+    "last_updated": "2026-08-19T12:38:38.167Z",
     "original_repository": "yokomakes/awesome-js",
+    "original_repository_id": 1037913192,
     "original_repository_sha": "655e608649854e0b04cebf1542cd49d3ea85ae9e",
     "enhanced_repository": "enhansome/enhansome-js",
     "enhanced_repository_description": null,

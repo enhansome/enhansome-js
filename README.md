@@ -101,8 +101,8 @@ A curated collection of awesome **JavaScript** libraries, tools, runtimes, resou
 
 *Manage multiple packages/apps in one repo.*
 
-* [Bit](https://github.com/teambit/bit) ⭐ 18,460 | 🐛 88 | 🌐 TypeScript | 📅 2026-08-24 - Create, find, and reuse components across apps.
-* [Changesets](https://github.com/changesets/changesets) ⭐ 12,314 | 🐛 263 | 🌐 TypeScript | 📅 2026-08-24 - Versioning + changelogs for monorepos.
+* [Bit](https://github.com/teambit/bit) ⭐ 18,460 | 🐛 89 | 🌐 TypeScript | 📅 2026-08-24 - Create, find, and reuse components across apps.
+* [Changesets](https://github.com/changesets/changesets) ⭐ 12,315 | 🐛 264 | 🌐 TypeScript | 📅 2026-08-24 - Versioning + changelogs for monorepos.
 * [Nx](https://nx.dev/) - Smart, fast monorepos for JS/TS.
 * [Turborepo](https://turbo.build/repo) - High-performance build system for monorepos.
 * [Lerna](https://lerna.js.org/) - Monorepo tooling (often combined with npm/yarn/pnpm workspaces).
@@ -129,10 +129,10 @@ A curated collection of awesome **JavaScript** libraries, tools, runtimes, resou
 
 *Bundle modules and assets.*
 
-* [webpack](https://github.com/webpack/webpack) ⭐ 65,971 | 🐛 137 | 🌐 JavaScript | 📅 2026-08-24 - Mature bundler for complex apps.
-* [Parcel](https://github.com/parcel-bundler/parcel) ⭐ 44,019 | 🐛 602 | 🌐 JavaScript | 📅 2026-08-22 - Zero-config bundler.
-* [esbuild](https://github.com/evanw/esbuild) ⭐ 40,018 | 🐛 605 | 🌐 Go | 📅 2026-08-09 - Extremely fast bundler/transpiler.
-* [Rollup](https://github.com/rollup/rollup) ⭐ 26,309 | 🐛 603 | 🌐 JavaScript | 📅 2026-08-24 - Great for libraries (ESM-first).
+* [webpack](https://github.com/webpack/webpack) ⭐ 65,972 | 🐛 134 | 🌐 JavaScript | 📅 2026-08-25 - Mature bundler for complex apps.
+* [Parcel](https://github.com/parcel-bundler/parcel) ⭐ 44,019 | 🐛 602 | 🌐 JavaScript | 📅 2026-08-25 - Zero-config bundler.
+* [esbuild](https://github.com/evanw/esbuild) ⭐ 40,020 | 🐛 607 | 🌐 Go | 📅 2026-08-09 - Extremely fast bundler/transpiler.
+* [Rollup](https://github.com/rollup/rollup) ⭐ 26,309 | 🐛 601 | 🌐 JavaScript | 📅 2026-08-25 - Great for libraries (ESM-first).
 * [Microbundle](https://github.com/developit/microbundle) ⭐ 8,129 | 🐛 102 | 🌐 JavaScript | 📅 2026-02-01 - Zero-config bundler for tiny modules.
 * [FuseBox](https://github.com/fuse-box/fuse-box) ⚠️ Archived - A bundler that does it right.
 * [Vite](https://vite.dev/) - Modern dev server + bundler.
@@ -148,8 +148,8 @@ A curated collection of awesome **JavaScript** libraries, tools, runtimes, resou
 
 ## Type Checking & Validation
 
-* [Zod](https://github.com/colinhacks/zod) ⭐ 43,520 | 🐛 111 | 🌐 TypeScript | 📅 2026-08-24 - TypeScript-first schema validation.
-* [Yup](https://github.com/jquense/yup) ⭐ 23,672 | 🐛 251 | 🌐 TypeScript | 📅 2026-08-21 - Schema builder and validator.
+* [Zod](https://github.com/colinhacks/zod) ⭐ 43,522 | 🐛 87 | 🌐 TypeScript | 📅 2026-08-25 - TypeScript-first schema validation.
+* [Yup](https://github.com/jquense/yup) ⭐ 23,671 | 🐛 251 | 🌐 TypeScript | 📅 2026-08-21 - Schema builder and validator.
 * [Ajv](https://github.com/ajv-validator/ajv) ⭐ 14,810 | 🐛 376 | 🌐 TypeScript | 📅 2026-05-12 - Fast JSON Schema validator.
 * [io-ts](https://github.com/gcanti/io-ts) ⭐ 6,808 | 🐛 161 | 🌐 TypeScript | 📅 2024-12-10 - Runtime types + decoding.
 * [TypeScript](https://www.typescriptlang.org/) - Typed superset of JavaScript.
@@ -159,9 +159,9 @@ A curated collection of awesome **JavaScript** libraries, tools, runtimes, resou
 
 ### Test Runners
 
-* [Jest](https://github.com/facebook/jest) ⭐ 45,473 | 🐛 182 | 🌐 TypeScript | 📅 2026-08-24 - Painless JavaScript unit testing.
+* [Jest](https://github.com/facebook/jest) ⭐ 45,474 | 🐛 182 | 🌐 TypeScript | 📅 2026-08-24 - Painless JavaScript unit testing.
 * [Mocha](https://github.com/mochajs/mocha) ⭐ 22,905 | 🐛 264 | 🌐 JavaScript | 📅 2026-08-21 - Flexible test framework for Node and browser.
-* [AVA](https://github.com/avajs/ava) ⭐ 20,830 | 🐛 72 | 🌐 JavaScript | 📅 2026-06-17 - Futuristic JavaScript test runner.
+* [AVA](https://github.com/avajs/ava) ⭐ 20,831 | 🐛 72 | 🌐 JavaScript | 📅 2026-06-17 - Futuristic JavaScript test runner.
 * [Tape](https://github.com/substack/tape) ⭐ 5,798 | 🐛 40 | 🌐 JavaScript | 📅 2026-06-18 - Tap-producing test harness.
 * [QUnit](https://github.com/qunitjs/qunit) ⭐ 4,033 | 🐛 53 | 🌐 JavaScript | 📅 2026-06-28 - Easy-to-use unit testing framework.
 * [Vitest](https://vitest.dev/) - Fast unit test framework powered by Vite.
@@ -174,8 +174,8 @@ A curated collection of awesome **JavaScript** libraries, tools, runtimes, resou
 
 ### E2E / Browser Automation
 
-* [Puppeteer](https://github.com/GoogleChrome/puppeteer) ⭐ 95,494 | 🐛 261 | 🌐 TypeScript | 📅 2026-08-24 - Headless Chrome/Chromium automation.
-* [Playwright](https://github.com/microsoft/playwright) ⭐ 95,068 | 🐛 166 | 🌐 TypeScript | 📅 2026-08-24 - Automate Chromium/Firefox/WebKit.
+* [Puppeteer](https://github.com/GoogleChrome/puppeteer) ⭐ 95,495 | 🐛 261 | 🌐 TypeScript | 📅 2026-08-24 - Headless Chrome/Chromium automation.
+* [Playwright](https://github.com/microsoft/playwright) ⭐ 95,082 | 🐛 169 | 🌐 TypeScript | 📅 2026-08-25 - Automate Chromium/Firefox/WebKit.
 * [TestCafe](https://github.com/DevExpress/testcafe) ⭐ 9,907 | 🐛 36 | 🌐 JavaScript | 📅 2026-08-20 - Automated browser testing.
 * [Cypress](https://www.cypress.io/) - End-to-end testing framework.
 * [WebdriverIO](https://webdriver.io/) - Node.js browser/mobile automation.
@@ -189,10 +189,10 @@ A curated collection of awesome **JavaScript** libraries, tools, runtimes, resou
 
 *Format, lint, and keep code healthy.*
 
-* [Prettier](https://github.com/prettier/prettier) ⭐ 52,214 | 🐛 1,416 | 🌐 JavaScript | 📅 2026-08-24 - Opinionated formatter.
+* [Prettier](https://github.com/prettier/prettier) ⭐ 52,218 | 🐛 1,416 | 🌐 JavaScript | 📅 2026-08-24 - Opinionated formatter.
 * [Husky](https://github.com/typicode/husky) ⭐ 35,283 | 🐛 108 | 🌐 JavaScript | 📅 2026-03-19 - Git hooks made easy.
 * [Standard](https://github.com/standard/standard) ⭐ 29,430 | 🐛 128 | 🌐 JavaScript | 📅 2025-07-11 - JavaScript Standard Style.
-* [ESLint](https://github.com/eslint/eslint) ⭐ 27,481 | 🐛 130 | 🌐 JavaScript | 📅 2026-08-24 - Pluggable linting utility.
+* [ESLint](https://github.com/eslint/eslint) ⭐ 27,486 | 🐛 131 | 🌐 JavaScript | 📅 2026-08-24 - Pluggable linting utility.
 * [lint-staged](https://github.com/lint-staged/lint-staged) ⭐ 14,720 | 🐛 10 | 🌐 JavaScript | 📅 2026-08-22 - Run linters on staged files.
 * [Biome](https://biomejs.dev/) - Fast formatter + linter (JS/TS).
 
@@ -211,7 +211,7 @@ A curated collection of awesome **JavaScript** libraries, tools, runtimes, resou
 
 ### UI Frameworks
 
-* [Preact](https://github.com/preactjs/preact) ⭐ 38,831 | 🐛 40 | 🌐 JavaScript | 📅 2026-08-24 - Fast, small React alternative.
+* [Preact](https://github.com/preactjs/preact) ⭐ 38,831 | 🐛 41 | 🌐 JavaScript | 📅 2026-08-25 - Fast, small React alternative.
 * [Alpine.js](https://github.com/alpinejs/alpine) ⭐ 31,883 | 🐛 3 | 🌐 HTML | 📅 2026-08-24 - Minimal reactive framework.
 * [React](https://react.dev/) - UI library.
 * [Vue](https://vuejs.org/) - Progressive framework.
@@ -221,39 +221,39 @@ A curated collection of awesome **JavaScript** libraries, tools, runtimes, resou
 
 ### State Management
 
-* [Zustand](https://github.com/pmndrs/zustand) ⭐ 58,602 | 🐛 6 | 🌐 TypeScript | 📅 2026-08-19 - Small, fast state management for React.
-* [MobX](https://github.com/mobxjs/mobx) ⭐ 28,204 | 🐛 56 | 🌐 TypeScript | 📅 2026-08-24 - Simple, scalable state management.
+* [Zustand](https://github.com/pmndrs/zustand) ⭐ 58,605 | 🐛 5 | 🌐 TypeScript | 📅 2026-08-24 - Small, fast state management for React.
+* [MobX](https://github.com/mobxjs/mobx) ⭐ 28,206 | 🐛 56 | 🌐 TypeScript | 📅 2026-08-24 - Simple, scalable state management.
 * [Redux](https://redux.js.org/) - Predictable state container.
 * [XState](https://xstate.js.org/) - State machines and statecharts.
 
 ### Data Visualization
 
-* [Three.js](https://github.com/mrdoob/three.js) ⭐ 114,757 | 🐛 374 | 🌐 JavaScript | 📅 2026-08-24 - 3D library.
-* [D3](https://github.com/d3/d3) ⭐ 113,544 | 🐛 20 | 🌐 Shell | 📅 2026-05-28 - Visualization library for HTML/SVG/Canvas.
+* [Three.js](https://github.com/mrdoob/three.js) ⭐ 114,766 | 🐛 375 | 🌐 JavaScript | 📅 2026-08-25 - 3D library.
+* [D3](https://github.com/d3/d3) ⭐ 113,545 | 🐛 21 | 🌐 Shell | 📅 2026-05-28 - Visualization library for HTML/SVG/Canvas.
 * [Chart.js](https://github.com/chartjs/Chart.js) ⭐ 67,660 | 🐛 579 | 🌐 JavaScript | 📅 2026-05-27 - Simple canvas charts.
-* [ECharts](https://github.com/apache/echarts) ⭐ 67,141 | 🐛 1,541 | 🌐 TypeScript | 📅 2026-08-04 - Powerful charting.
+* [ECharts](https://github.com/apache/echarts) ⭐ 67,147 | 🐛 1,541 | 🌐 TypeScript | 📅 2026-08-04 - Powerful charting.
 * [Vega](https://github.com/vega/vega) ⭐ 11,971 | 🐛 470 | 🌐 JavaScript | 📅 2026-08-22 - Visualization grammar.
-* [Cytoscape.js](https://github.com/cytoscape/cytoscape.js) ⭐ 11,181 | 🐛 21 | 🌐 JavaScript | 📅 2026-08-24 - Graph theory visualizations.
+* [Cytoscape.js](https://github.com/cytoscape/cytoscape.js) ⭐ 11,182 | 🐛 21 | 🌐 JavaScript | 📅 2026-08-24 - Graph theory visualizations.
 
 ### Editors
 
-* [Quill](https://github.com/quilljs/quill) ⭐ 47,312 | 🐛 658 | 🌐 TypeScript | 📅 2025-07-25 - Rich text editor.
+* [Quill](https://github.com/quilljs/quill) ⭐ 47,316 | 🐛 658 | 🌐 TypeScript | 📅 2025-07-25 - Rich text editor.
 * [Ace](https://github.com/ajaxorg/ace) ⭐ 27,143 | 🐛 139 | 🌐 JavaScript | 📅 2026-08-13 - Browser code editor.
-* [TinyMCE](https://github.com/tinymce/tinymce) ⭐ 16,280 | 🐛 411 | 🌐 TypeScript | 📅 2026-08-17 - Rich text editor.
+* [TinyMCE](https://github.com/tinymce/tinymce) ⭐ 16,279 | 🐛 411 | 🌐 TypeScript | 📅 2026-08-17 - Rich text editor.
 * [CodeMirror](https://github.com/codemirror/dev) ⚠️ Archived - Code editor.
 * [Monaco Editor](https://microsoft.github.io/monaco-editor/) - VS Code editor core.
 
 ### Animations
 
-* [three.js](https://github.com/mrdoob/three.js) ⭐ 114,757 | 🐛 374 | 🌐 JavaScript | 📅 2026-08-24 - 3D animations and scenes.
+* [three.js](https://github.com/mrdoob/three.js) ⭐ 114,766 | 🐛 375 | 🌐 JavaScript | 📅 2026-08-25 - 3D animations and scenes.
 * [GSAP](https://gsap.com/) - High-performance animations.
 * [anime.js](https://animejs.com/) - Animation engine.
 * [motion](https://motion.dev/) - Modern animation library.
 
 ### Maps
 
-* [Leaflet](https://github.com/Leaflet/Leaflet) ⭐ 45,513 | 🐛 563 | 🌐 JavaScript | 📅 2026-08-24 - Interactive maps.
-* [Cesium](https://github.com/CesiumGS/cesium) ⭐ 15,596 | 🐛 1,650 | 🌐 JavaScript | 📅 2026-08-24 - 3D globes and maps.
+* [Leaflet](https://github.com/Leaflet/Leaflet) ⭐ 45,514 | 🐛 563 | 🌐 JavaScript | 📅 2026-08-24 - Interactive maps.
+* [Cesium](https://github.com/CesiumGS/cesium) ⭐ 15,597 | 🐛 1,651 | 🌐 JavaScript | 📅 2026-08-25 - 3D globes and maps.
 * [MapLibre GL JS](https://maplibre.org/maplibre-gl-js/docs/) - Open-source WebGL maps.
 * [OpenLayers](https://openlayers.org/) - Feature-packed mapping library.
 
@@ -271,10 +271,10 @@ A curated collection of awesome **JavaScript** libraries, tools, runtimes, resou
 
 ### API Clients & Data Fetching
 
-* [axios](https://github.com/axios/axios) ⭐ 109,201 | 🐛 78 | 🌐 JavaScript | 📅 2026-08-24 - HTTP client for Node and browser.
-* [TanStack Query](https://github.com/TanStack/query) ⭐ 50,199 | 🐛 121 | 🌐 TypeScript | 📅 2026-08-24 - Async state + caching.
-* [SWR](https://github.com/vercel/swr) ⭐ 32,469 | 🐛 214 | 🌐 TypeScript | 📅 2026-08-23 - React Hooks data fetching.
-* [ky](https://github.com/sindresorhus/ky) ⭐ 17,041 | 🐛 3 | 🌐 TypeScript | 📅 2026-07-06 - Tiny Fetch-based HTTP client.
+* [axios](https://github.com/axios/axios) ⭐ 109,202 | 🐛 78 | 🌐 JavaScript | 📅 2026-08-24 - HTTP client for Node and browser.
+* [TanStack Query](https://github.com/TanStack/query) ⭐ 50,200 | 🐛 121 | 🌐 TypeScript | 📅 2026-08-25 - Async state + caching.
+* [SWR](https://github.com/vercel/swr) ⭐ 32,467 | 🐛 214 | 🌐 TypeScript | 📅 2026-08-23 - React Hooks data fetching.
+* [ky](https://github.com/sindresorhus/ky) ⭐ 17,042 | 🐛 3 | 🌐 TypeScript | 📅 2026-07-06 - Tiny Fetch-based HTTP client.
 
 ### Authentication
 
@@ -284,50 +284,50 @@ A curated collection of awesome **JavaScript** libraries, tools, runtimes, resou
 
 ### ORM & Databases
 
-* [Prisma](https://github.com/prisma/prisma) ⭐ 47,568 | 🐛 2,555 | 🌐 TypeScript | 📅 2026-08-24 - Type-safe ORM.
-* [TypeORM](https://github.com/typeorm/typeorm) ⭐ 36,634 | 🐛 624 | 🌐 TypeScript | 📅 2026-08-13 - ORM for TS/JS.
-* [Drizzle ORM](https://github.com/drizzle-team/drizzle-orm) ⭐ 35,574 | 🐛 1,983 | 🌐 TypeScript | 📅 2026-08-19 - SQL-first TypeScript ORM.
+* [Prisma](https://github.com/prisma/prisma) ⭐ 47,570 | 🐛 2,557 | 🌐 TypeScript | 📅 2026-08-25 - Type-safe ORM.
+* [TypeORM](https://github.com/typeorm/typeorm) ⭐ 36,633 | 🐛 624 | 🌐 TypeScript | 📅 2026-08-13 - ORM for TS/JS.
+* [Drizzle ORM](https://github.com/drizzle-team/drizzle-orm) ⭐ 35,580 | 🐛 1,983 | 🌐 TypeScript | 📅 2026-08-19 - SQL-first TypeScript ORM.
 * [Sequelize](https://github.com/sequelize/sequelize) ⭐ 30,377 | 🐛 1,078 | 🌐 TypeScript | 📅 2026-08-16 - Feature-rich ORM.
-* [Mongoose](https://github.com/Automattic/mongoose) ⭐ 27,473 | 🐛 173 | 🌐 JavaScript | 📅 2026-08-23 - MongoDB object modeling.
-* [Knex](https://github.com/knex/knex) ⭐ 20,341 | 🐛 738 | 🌐 JavaScript | 📅 2026-06-26 - SQL query builder.
-* [Kysely](https://github.com/kysely-org/kysely) ⭐ 14,164 | 🐛 162 | 🌐 TypeScript | 📅 2026-08-24 - Type-safe SQL query builder.
+* [Mongoose](https://github.com/Automattic/mongoose) ⭐ 27,473 | 🐛 175 | 🌐 JavaScript | 📅 2026-08-23 - MongoDB object modeling.
+* [Knex](https://github.com/knex/knex) ⭐ 20,342 | 🐛 738 | 🌐 JavaScript | 📅 2026-06-26 - SQL query builder.
+* [Kysely](https://github.com/kysely-org/kysely) ⭐ 14,165 | 🐛 162 | 🌐 TypeScript | 📅 2026-08-24 - Type-safe SQL query builder.
 
 ### Queues & Jobs
 
-* [Agenda](https://github.com/agenda/agenda) ⭐ 9,697 | 🐛 42 | 🌐 HTML | 📅 2026-07-21 - Job scheduling for Node.
-* [BullMQ](https://github.com/taskforcesh/bullmq) ⭐ 9,323 | 🐛 382 | 🌐 TypeScript | 📅 2026-08-24 - Redis-backed queue.
+* [Agenda](https://github.com/agenda/agenda) ⭐ 9,698 | 🐛 42 | 🌐 HTML | 📅 2026-07-21 - Job scheduling for Node.
+* [BullMQ](https://github.com/taskforcesh/bullmq) ⭐ 9,323 | 🐛 381 | 🌐 TypeScript | 📅 2026-08-25 - Redis-backed queue.
 * [Bree](https://github.com/breejs/bree) ⭐ 3,292 | 🐛 29 | 🌐 JavaScript | 📅 2026-02-17 - Job scheduler using worker threads.
 
 ### WebSockets
 
-* [Socket.IO](https://github.com/socketio/socket.io) ⭐ 63,201 | 🐛 198 | 🌐 TypeScript | 📅 2026-07-24 - Realtime framework with fallbacks.
+* [Socket.IO](https://github.com/socketio/socket.io) ⭐ 63,204 | 🐛 198 | 🌐 TypeScript | 📅 2026-07-24 - Realtime framework with fallbacks.
 * [ws](https://github.com/websockets/ws) ⭐ 22,794 | 🐛 5 | 🌐 JavaScript | 📅 2026-08-13 - Fast WebSocket implementation.
 
 ### CMS
 
-* [Strapi](https://github.com/strapi/strapi) ⭐ 73,015 | 🐛 537 | 🌐 TypeScript | 📅 2026-08-24 - Open-source headless CMS.
-* [Ghost](https://github.com/tryghost/Ghost) ⭐ 55,052 | 🐛 140 | 🌐 JavaScript | 📅 2026-08-24 - Publishing platform.
-* [KeystoneJS](https://github.com/keystonejs/keystone) ⭐ 9,965 | 🐛 145 | 🌐 TypeScript | 📅 2026-08-24 - CMS + app framework.
+* [Strapi](https://github.com/strapi/strapi) ⭐ 73,012 | 🐛 537 | 🌐 TypeScript | 📅 2026-08-24 - Open-source headless CMS.
+* [Ghost](https://github.com/tryghost/Ghost) ⭐ 55,054 | 🐛 138 | 🌐 JavaScript | 📅 2026-08-25 - Publishing platform.
+* [KeystoneJS](https://github.com/keystonejs/keystone) ⭐ 9,964 | 🐛 138 | 🌐 TypeScript | 📅 2026-08-25 - CMS + app framework.
 
 ## Utilities
 
 ### Files
 
-* [PDF.js](https://github.com/mozilla/pdf.js) ⭐ 53,777 | 🐛 414 | 🌐 JavaScript | 📅 2026-08-23 - PDF reader in JavaScript.
-* [jsPDF](https://github.com/parallax/jsPDF) ⭐ 31,284 | 🐛 119 | 🌐 JavaScript | 📅 2026-08-09 - PDF generation.
+* [PDF.js](https://github.com/mozilla/pdf.js) ⭐ 53,778 | 🐛 414 | 🌐 JavaScript | 📅 2026-08-23 - PDF reader in JavaScript.
+* [jsPDF](https://github.com/parallax/jsPDF) ⭐ 31,283 | 🐛 119 | 🌐 JavaScript | 📅 2026-08-09 - PDF generation.
 * [Papa Parse](https://github.com/mholt/PapaParse) ⭐ 13,553 | 🐛 215 | 🌐 JavaScript | 📅 2026-08-24 - CSV parsing.
 * [diff2html](https://github.com/rtfpessoa/diff2html) ⭐ 3,397 | 🐛 34 | 🌐 TypeScript | 📅 2026-05-08 - Git diff → pretty HTML.
 
 ### Functional Programming
 
-* [lodash](https://github.com/lodash/lodash) ⭐ 61,291 | 🐛 106 | 🌐 JavaScript | 📅 2026-07-03 - Utility library.
+* [lodash](https://github.com/lodash/lodash) ⭐ 61,290 | 🐛 106 | 🌐 JavaScript | 📅 2026-07-03 - Utility library.
 * [underscore](https://github.com/jashkenas/underscore) ⭐ 27,330 | 🐛 52 | 🌐 JavaScript | 📅 2026-08-12 - Utility belt.
-* [ramda](https://github.com/ramda/ramda) ⭐ 24,058 | 🐛 146 | 🌐 JavaScript | 📅 2026-07-26 - Practical FP library.
+* [ramda](https://github.com/ramda/ramda) ⭐ 24,057 | 🐛 146 | 🌐 JavaScript | 📅 2026-07-26 - Practical FP library.
 * [fxjs](https://github.com/marpple/FxTS) ⭐ 1,166 | 🐛 7 | 🌐 TypeScript | 📅 2026-08-08 - Lazy evaluation + concurrency helpers.
 
 ### Reactive Programming
 
-* [RxJS](https://github.com/ReactiveX/rxjs) ⭐ 31,704 | 🐛 180 | 🌐 TypeScript | 📅 2026-08-08 - Reactive programming library.
+* [RxJS](https://github.com/ReactiveX/rxjs) ⭐ 31,703 | 🐛 180 | 🌐 TypeScript | 📅 2026-08-08 - Reactive programming library.
 * [Bacon.js](https://github.com/baconjs/bacon.js) ⭐ 6,456 | 🐛 86 | 🌐 TypeScript | 📅 2025-04-18 - FRP library.
 * [Most.js](https://github.com/cujojs/most) ⭐ 3,489 | 🐛 50 | 🌐 JavaScript | 📅 2022-12-06 - High-performance FRP library.
 
@@ -339,9 +339,9 @@ A curated collection of awesome **JavaScript** libraries, tools, runtimes, resou
 ### Date & Time
 
 * [dayjs](https://github.com/iamkun/dayjs) ⭐ 48,668 | 🐛 1,300 | 🌐 JavaScript | 📅 2026-08-18 - Small Moment-like API.
-* [date-fns](https://github.com/date-fns/date-fns) ⭐ 36,642 | 🐛 996 | 🌐 TypeScript | 📅 2026-08-10 - Modern date utility library.
-* [luxon](https://github.com/moment/luxon) ⭐ 16,445 | 🐛 179 | 🌐 JavaScript | 📅 2026-08-09 - Dates and times with Intl.
-* [ms](https://github.com/vercel/ms) ⭐ 5,544 | 🐛 37 | 🌐 TypeScript | 📅 2026-05-20 - Millisecond conversion utility.
+* [date-fns](https://github.com/date-fns/date-fns) ⭐ 36,645 | 🐛 996 | 🌐 TypeScript | 📅 2026-08-10 - Modern date utility library.
+* [luxon](https://github.com/moment/luxon) ⭐ 16,445 | 🐛 180 | 🌐 JavaScript | 📅 2026-08-09 - Dates and times with Intl.
+* [ms](https://github.com/vercel/ms) ⭐ 5,545 | 🐛 37 | 🌐 TypeScript | 📅 2026-05-20 - Millisecond conversion utility.
 
 ### String
 
@@ -357,7 +357,7 @@ A curated collection of awesome **JavaScript** libraries, tools, runtimes, resou
 
 ### Storage
 
-* [localForage](https://github.com/localForage/localForage) ⭐ 25,807 | 🐛 250 | 🌐 JavaScript | 📅 2024-07-30 - Offline storage wrapper.
+* [localForage](https://github.com/localForage/localForage) ⭐ 25,808 | 🐛 250 | 🌐 JavaScript | 📅 2024-07-30 - Offline storage wrapper.
 * [js-cookie](https://github.com/js-cookie/js-cookie) ⭐ 22,590 | 🐛 11 | 🌐 JavaScript | 📅 2026-08-10 - Cookie API.
 * [Dexie.js](https://github.com/dexie/Dexie.js) ⭐ 14,546 | 🐛 594 | 🌐 TypeScript | 📅 2026-08-24 - IndexedDB wrapper.
 
@@ -369,7 +369,7 @@ A curated collection of awesome **JavaScript** libraries, tools, runtimes, resou
 
 ### I18n & L10n
 
-* [i18next](https://github.com/i18next/i18next) ⭐ 8,620 | 🐛 2 | 🌐 JavaScript | 📅 2026-08-20 - Internationalization framework.
+* [i18next](https://github.com/i18next/i18next) ⭐ 8,621 | 🐛 2 | 🌐 JavaScript | 📅 2026-08-20 - Internationalization framework.
 * [ttag](https://github.com/ttag-org/ttag) ⭐ 354 | 🐛 51 | 🌐 TypeScript | 📅 2025-07-01 - Modern i18n using tagged templates.
 
 ### Control Flow
@@ -390,13 +390,13 @@ A curated collection of awesome **JavaScript** libraries, tools, runtimes, resou
 
 ### Security
 
-* [DOMPurify](https://github.com/cure53/DOMPurify) ⭐ 17,330 | 🐛 0 | 🌐 JavaScript | 📅 2026-08-24 - XSS sanitizer for HTML/SVG/MathML.
+* [DOMPurify](https://github.com/cure53/DOMPurify) ⭐ 17,332 | 🐛 0 | 🌐 JavaScript | 📅 2026-08-24 - XSS sanitizer for HTML/SVG/MathML.
 * [js-xss](https://github.com/leizongmin/js-xss) ⭐ 5,313 | 🐛 69 | 🌐 HTML | 📅 2026-05-06 - Sanitize untrusted HTML.
 * [sanitize-html](https://github.com/apostrophecms/sanitize-html) ⚠️ Archived - HTML sanitizer.
 
 ### Logging
 
-* [winston](https://github.com/winstonjs/winston) ⭐ 24,506 | 🐛 529 | 🌐 JavaScript | 📅 2026-07-20 - Multi-transport async logging.
+* [winston](https://github.com/winstonjs/winston) ⭐ 24,507 | 🐛 529 | 🌐 JavaScript | 📅 2026-07-20 - Multi-transport async logging.
 * [pino](https://github.com/pinojs/pino) ⭐ 18,153 | 🐛 167 | 🌐 JavaScript | 📅 2026-08-13 - Very fast logger for Node.
 * [loglevel](https://github.com/pimterry/loglevel) ⭐ 2,747 | 🐛 19 | 🌐 JavaScript | 📅 2025-03-20 - Minimal log level wrapper.
 
@@ -409,9 +409,9 @@ A curated collection of awesome **JavaScript** libraries, tools, runtimes, resou
 
 ### CLI
 
-* [zx](https://github.com/google/zx) ⭐ 45,702 | 🐛 61 | 🌐 JavaScript | 📅 2026-08-14 - Write shell scripts in JavaScript.
+* [zx](https://github.com/google/zx) ⭐ 45,703 | 🐛 61 | 🌐 JavaScript | 📅 2026-08-14 - Write shell scripts in JavaScript.
 * [commander](https://github.com/tj/commander.js) ⭐ 28,373 | 🐛 8 | 🌐 JavaScript | 📅 2026-08-24 - CLI framework.
-* [yargs](https://github.com/yargs/yargs) ⭐ 11,515 | 🐛 219 | 🌐 JavaScript | 📅 2026-08-07 - CLI argument parsing.
+* [yargs](https://github.com/yargs/yargs) ⭐ 11,515 | 🐛 208 | 🌐 JavaScript | 📅 2026-08-07 - CLI argument parsing.
 * [oclif](https://github.com/oclif/oclif) ⭐ 9,580 | 🐛 19 | 🌐 TypeScript | 📅 2026-08-24 - Opinionated CLI framework.
 
 ### Desktop Apps
@@ -433,26 +433,26 @@ A curated collection of awesome **JavaScript** libraries, tools, runtimes, resou
 
 ## Generative AI
 
-* [LangChain.js](https://github.com/langchain-ai/langchainjs) ⭐ 18,132 | 🐛 531 | 🌐 TypeScript | 📅 2026-08-24 - LLM application framework for JS/TS.
-* [OpenAI SDK](https://github.com/openai/openai-node) ⭐ 11,138 | 🐛 17 | 🌐 TypeScript | 📅 2026-08-24 - Official JavaScript/TypeScript library for the OpenAI API.
+* [LangChain.js](https://github.com/langchain-ai/langchainjs) ⭐ 18,133 | 🐛 531 | 🌐 TypeScript | 📅 2026-08-24 - LLM application framework for JS/TS.
+* [OpenAI SDK](https://github.com/openai/openai-node) ⭐ 11,139 | 🐛 17 | 🌐 TypeScript | 📅 2026-08-25 - Official JavaScript/TypeScript library for the OpenAI API.
 * [Vercel AI SDK](https://sdk.vercel.ai/docs) - Build AI features for web apps.
 
 ## Articles & Posts
 
-* [javascript-algorithms](https://github.com/trekhleb/javascript-algorithms) ⭐ 196,547 | 🐛 405 | 🌐 JavaScript | 📅 2026-07-26 - Algorithms and data structures in JS.
-* [Clean Code JavaScript](https://github.com/ryanmcdermott/clean-code-javascript) ⭐ 94,764 | 🐛 123 | 🌐 JavaScript | 📅 2024-07-29 - Clean Code ideas adapted for JS.
+* [javascript-algorithms](https://github.com/trekhleb/javascript-algorithms) ⭐ 196,549 | 🐛 405 | 🌐 JavaScript | 📅 2026-07-26 - Algorithms and data structures in JS.
+* [Clean Code JavaScript](https://github.com/ryanmcdermott/clean-code-javascript) ⭐ 94,763 | 🐛 123 | 🌐 JavaScript | 📅 2024-07-29 - Clean Code ideas adapted for JS.
 * [Roadmap.sh JavaScript Roadmap](https://roadmap.sh/javascript) - Community learning roadmap.
 
 # Worth Reading
 
-* [You Don’t Know JS Yet](https://github.com/getify/You-Dont-Know-JS) ⭐ 184,720 | 🐛 2 | 📅 2026-02-15 - Deep dive series on JS fundamentals and internals.
+* [You Don’t Know JS Yet](https://github.com/getify/You-Dont-Know-JS) ⭐ 184,722 | 🐛 2 | 📅 2026-02-15 - Deep dive series on JS fundamentals and internals.
 * [braziljs/js-the-right-way](https://github.com/braziljs/js-the-right-way/) ⭐ 8,675 | 🐛 0 | 🌐 HTML | 📅 2026-07-29 - Quick reference for JS best practices.
 * [Superhero.js](http://superherojs.com) - Resources for creating and maintaining large JS codebases.
 
 # Other Awesome Lists
 
-* [sindresorhus/awesome](https://github.com/sindresorhus/awesome) ⭐ 499,611 | 🐛 106 | 📅 2026-08-21
-* [enaqx/awesome-react](https://github.com/enaqx/awesome-react) ⭐ 74,385 | 🐛 82 | 📅 2026-08-20
+* [sindresorhus/awesome](https://github.com/sindresorhus/awesome) ⭐ 499,707 | 🐛 106 | 📅 2026-08-21
+* [enaqx/awesome-react](https://github.com/enaqx/awesome-react) ⭐ 74,392 | 🐛 82 | 📅 2026-08-20
 * [denolib/awesome-deno](https://github.com/denolib/awesome-deno) ⭐ 4,408 | 🐛 2 | 📅 2026-08-14
 * [apvarun/awesome-bun](https://github.com/apvarun/awesome-bun) ⭐ 3,650 | 🐛 92 | 📅 2025-07-20
 
@@ -468,4 +468,4 @@ To the extent possible under law, the authors have waived all copyright and rela
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-08-24._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-08-25._

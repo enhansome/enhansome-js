@@ -883,7 +883,7 @@
                 "open_issues": 263,
                 "owner": "puppeteer",
                 "repo": "puppeteer",
-                "stars": 95515,
+                "stars": 95516,
                 "topics": [
                   "automation",
                   "chrome",
@@ -914,7 +914,7 @@
                 "open_issues": 167,
                 "owner": "microsoft",
                 "repo": "playwright",
-                "stars": 95316,
+                "stars": 95315,
                 "topics": [
                   "automation",
                   "chrome",
@@ -1238,7 +1238,7 @@
                 "open_issues": 5,
                 "owner": "alpinejs",
                 "repo": "alpine",
-                "stars": 31888,
+                "stars": 31890,
                 "topics": []
               },
               "first_seen": "2026-08-28T06:27:56.730Z"
@@ -1478,7 +1478,7 @@
                 "open_issues": 16,
                 "owner": "cytoscape",
                 "repo": "cytoscape.js",
-                "stars": 11188,
+                "stars": 11189,
                 "topics": [
                   "analysis",
                   "cytoscapejs",
@@ -1558,7 +1558,7 @@
                 "language": "TypeScript",
                 "license": "NOASSERTION",
                 "last_commit": "2026-08-17T01:15:12Z",
-                "open_issues": 414,
+                "open_issues": 415,
                 "owner": "tinymce",
                 "repo": "tinymce",
                 "stars": 16283,
@@ -1660,7 +1660,7 @@
                 "open_issues": 565,
                 "owner": "Leaflet",
                 "repo": "Leaflet",
-                "stars": 45528,
+                "stars": 45529,
                 "topics": [
                   "javascript",
                   "leaflet",
@@ -1866,7 +1866,7 @@
                 "language": "TypeScript",
                 "license": "Apache-2.0",
                 "last_commit": "2026-08-28T16:43:35Z",
-                "open_issues": 2579,
+                "open_issues": 2580,
                 "owner": "prisma",
                 "repo": "orm",
                 "stars": 47566,
@@ -2152,7 +2152,7 @@
                 "id": 162494199,
                 "language": "TypeScript",
                 "license": "MIT",
-                "last_commit": "2026-08-29T03:44:57Z",
+                "last_commit": "2026-08-29T04:34:41Z",
                 "open_issues": 386,
                 "owner": "taskforcesh",
                 "repo": "bullmq",
@@ -2334,11 +2334,11 @@
                 "id": 9852918,
                 "language": "JavaScript",
                 "license": "MIT",
-                "last_commit": "2026-08-29T03:55:24Z",
+                "last_commit": "2026-08-29T04:29:35Z",
                 "open_issues": 131,
                 "owner": "TryGhost",
                 "repo": "Ghost",
-                "stars": 55076,
+                "stars": 55077,
                 "topics": [
                   "blogging",
                   "cms",
@@ -2409,7 +2409,7 @@
                 "open_issues": 417,
                 "owner": "mozilla",
                 "repo": "pdf.js",
-                "stars": 53798,
+                "stars": 53799,
                 "topics": []
               },
               "first_seen": "2026-08-28T06:27:56.730Z"
@@ -3832,7 +3832,7 @@
             "open_issues": 2,
             "owner": "getify",
             "repo": "You-Dont-Know-JS",
-            "stars": 184748,
+            "stars": 184747,
             "topics": [
               "async",
               "book",
@@ -3899,7 +3899,7 @@
             "open_issues": 105,
             "owner": "sindresorhus",
             "repo": "awesome",
-            "stars": 500887,
+            "stars": 500894,
             "topics": [
               "awesome",
               "awesome-list",
@@ -3999,7 +3999,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-29T03:59:43.342Z",
+    "last_updated": "2026-08-29T04:53:34.153Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated collection of awesome JavaScript libraries, tools, runtimes, resources, and shiny things — across browser, Node.js, Deno, Bun, edge/serverless, desktop, and mobile.",

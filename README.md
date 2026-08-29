@@ -174,8 +174,8 @@ A curated collection of awesome **JavaScript** libraries, tools, runtimes, resou
 
 ### E2E / Browser Automation
 
-* [Puppeteer](https://github.com/GoogleChrome/puppeteer) ⭐ 95,515 | 🐛 263 | 🌐 TypeScript | 📅 2026-08-28 - Headless Chrome/Chromium automation.
-* [Playwright](https://github.com/microsoft/playwright) ⭐ 95,316 | 🐛 167 | 🌐 TypeScript | 📅 2026-08-29 - Automate Chromium/Firefox/WebKit.
+* [Puppeteer](https://github.com/GoogleChrome/puppeteer) ⭐ 95,516 | 🐛 263 | 🌐 TypeScript | 📅 2026-08-28 - Headless Chrome/Chromium automation.
+* [Playwright](https://github.com/microsoft/playwright) ⭐ 95,315 | 🐛 167 | 🌐 TypeScript | 📅 2026-08-29 - Automate Chromium/Firefox/WebKit.
 * [TestCafe](https://github.com/DevExpress/testcafe) ⭐ 9,906 | 🐛 35 | 🌐 JavaScript | 📅 2026-08-20 - Automated browser testing.
 * [Cypress](https://www.cypress.io/) - End-to-end testing framework.
 * [WebdriverIO](https://webdriver.io/) - Node.js browser/mobile automation.
@@ -212,7 +212,7 @@ A curated collection of awesome **JavaScript** libraries, tools, runtimes, resou
 ### UI Frameworks
 
 * [Preact](https://github.com/preactjs/preact) ⭐ 38,842 | 🐛 42 | 🌐 JavaScript | 📅 2026-08-28 - Fast, small React alternative.
-* [Alpine.js](https://github.com/alpinejs/alpine) ⭐ 31,888 | 🐛 5 | 🌐 HTML | 📅 2026-08-28 - Minimal reactive framework.
+* [Alpine.js](https://github.com/alpinejs/alpine) ⭐ 31,890 | 🐛 5 | 🌐 HTML | 📅 2026-08-28 - Minimal reactive framework.
 * [React](https://react.dev/) - UI library.
 * [Vue](https://vuejs.org/) - Progressive framework.
 * [Svelte](https://svelte.dev/) - Compiler-based UI framework.
@@ -233,13 +233,13 @@ A curated collection of awesome **JavaScript** libraries, tools, runtimes, resou
 * [Chart.js](https://github.com/chartjs/Chart.js) ⭐ 67,670 | 🐛 584 | 🌐 JavaScript | 📅 2026-05-27 - Simple canvas charts.
 * [ECharts](https://github.com/apache/echarts) ⭐ 67,174 | 🐛 1,525 | 🌐 TypeScript | 📅 2026-08-04 - Powerful charting.
 * [Vega](https://github.com/vega/vega) ⭐ 11,979 | 🐛 471 | 🌐 JavaScript | 📅 2026-08-22 - Visualization grammar.
-* [Cytoscape.js](https://github.com/cytoscape/cytoscape.js) ⭐ 11,188 | 🐛 16 | 🌐 JavaScript | 📅 2026-08-28 - Graph theory visualizations.
+* [Cytoscape.js](https://github.com/cytoscape/cytoscape.js) ⭐ 11,189 | 🐛 16 | 🌐 JavaScript | 📅 2026-08-28 - Graph theory visualizations.
 
 ### Editors
 
 * [Quill](https://github.com/quilljs/quill) ⭐ 47,320 | 🐛 658 | 🌐 TypeScript | 📅 2025-07-25 - Rich text editor.
 * [Ace](https://github.com/ajaxorg/ace) ⭐ 27,145 | 🐛 140 | 🌐 JavaScript | 📅 2026-08-13 - Browser code editor.
-* [TinyMCE](https://github.com/tinymce/tinymce) ⭐ 16,283 | 🐛 414 | 🌐 TypeScript | 📅 2026-08-17 - Rich text editor.
+* [TinyMCE](https://github.com/tinymce/tinymce) ⭐ 16,283 | 🐛 415 | 🌐 TypeScript | 📅 2026-08-17 - Rich text editor.
 * [CodeMirror](https://github.com/codemirror/dev) ⚠️ Archived - Code editor.
 * [Monaco Editor](https://microsoft.github.io/monaco-editor/) - VS Code editor core.
 
@@ -252,7 +252,7 @@ A curated collection of awesome **JavaScript** libraries, tools, runtimes, resou
 
 ### Maps
 
-* [Leaflet](https://github.com/Leaflet/Leaflet) ⭐ 45,528 | 🐛 565 | 🌐 JavaScript | 📅 2026-08-24 - Interactive maps.
+* [Leaflet](https://github.com/Leaflet/Leaflet) ⭐ 45,529 | 🐛 565 | 🌐 JavaScript | 📅 2026-08-24 - Interactive maps.
 * [Cesium](https://github.com/CesiumGS/cesium) ⭐ 15,621 | 🐛 1,647 | 🌐 JavaScript | 📅 2026-08-29 - 3D globes and maps.
 * [MapLibre GL JS](https://maplibre.org/maplibre-gl-js/docs/) - Open-source WebGL maps.
 * [OpenLayers](https://openlayers.org/) - Feature-packed mapping library.
@@ -284,7 +284,7 @@ A curated collection of awesome **JavaScript** libraries, tools, runtimes, resou
 
 ### ORM & Databases
 
-* [Prisma](https://github.com/prisma/prisma) ⭐ 47,566 | 🐛 2,579 | 🌐 TypeScript | 📅 2026-08-28 - Type-safe ORM.
+* [Prisma](https://github.com/prisma/prisma) ⭐ 47,566 | 🐛 2,580 | 🌐 TypeScript | 📅 2026-08-28 - Type-safe ORM.
 * [TypeORM](https://github.com/typeorm/typeorm) ⭐ 36,634 | 🐛 617 | 🌐 TypeScript | 📅 2026-08-27 - ORM for TS/JS.
 * [Drizzle ORM](https://github.com/drizzle-team/drizzle-orm) ⭐ 35,617 | 🐛 1,992 | 🌐 TypeScript | 📅 2026-08-28 - SQL-first TypeScript ORM.
 * [Sequelize](https://github.com/sequelize/sequelize) ⭐ 30,375 | 🐛 1,081 | 🌐 TypeScript | 📅 2026-08-28 - Feature-rich ORM.
@@ -306,14 +306,14 @@ A curated collection of awesome **JavaScript** libraries, tools, runtimes, resou
 ### CMS
 
 * [Strapi](https://github.com/strapi/strapi) ⭐ 73,032 | 🐛 545 | 🌐 TypeScript | 📅 2026-08-28 - Open-source headless CMS.
-* [Ghost](https://github.com/tryghost/Ghost) ⭐ 55,076 | 🐛 131 | 🌐 JavaScript | 📅 2026-08-29 - Publishing platform.
+* [Ghost](https://github.com/tryghost/Ghost) ⭐ 55,077 | 🐛 131 | 🌐 JavaScript | 📅 2026-08-29 - Publishing platform.
 * [KeystoneJS](https://github.com/keystonejs/keystone) ⭐ 9,964 | 🐛 137 | 🌐 TypeScript | 📅 2026-08-26 - CMS + app framework.
 
 ## Utilities
 
 ### Files
 
-* [PDF.js](https://github.com/mozilla/pdf.js) ⭐ 53,798 | 🐛 417 | 🌐 JavaScript | 📅 2026-08-28 - PDF reader in JavaScript.
+* [PDF.js](https://github.com/mozilla/pdf.js) ⭐ 53,799 | 🐛 417 | 🌐 JavaScript | 📅 2026-08-28 - PDF reader in JavaScript.
 * [jsPDF](https://github.com/parallax/jsPDF) ⭐ 31,293 | 🐛 117 | 🌐 JavaScript | 📅 2026-08-28 - PDF generation.
 * [Papa Parse](https://github.com/mholt/PapaParse) ⭐ 13,552 | 🐛 215 | 🌐 JavaScript | 📅 2026-08-24 - CSV parsing.
 * [diff2html](https://github.com/rtfpessoa/diff2html) ⭐ 3,400 | 🐛 34 | 🌐 TypeScript | 📅 2026-05-08 - Git diff → pretty HTML.
@@ -445,13 +445,13 @@ A curated collection of awesome **JavaScript** libraries, tools, runtimes, resou
 
 # Worth Reading
 
-* [You Don’t Know JS Yet](https://github.com/getify/You-Dont-Know-JS) ⭐ 184,748 | 🐛 2 | 📅 2026-02-15 - Deep dive series on JS fundamentals and internals.
+* [You Don’t Know JS Yet](https://github.com/getify/You-Dont-Know-JS) ⭐ 184,747 | 🐛 2 | 📅 2026-02-15 - Deep dive series on JS fundamentals and internals.
 * [braziljs/js-the-right-way](https://github.com/braziljs/js-the-right-way/) ⭐ 8,674 | 🐛 0 | 🌐 HTML | 📅 2026-07-29 - Quick reference for JS best practices.
 * [Superhero.js](http://superherojs.com) - Resources for creating and maintaining large JS codebases.
 
 # Other Awesome Lists
 
-* [sindresorhus/awesome](https://github.com/sindresorhus/awesome) ⭐ 500,887 | 🐛 105 | 📅 2026-08-21
+* [sindresorhus/awesome](https://github.com/sindresorhus/awesome) ⭐ 500,894 | 🐛 105 | 📅 2026-08-21
 * [enaqx/awesome-react](https://github.com/enaqx/awesome-react) ⭐ 74,426 | 🐛 83 | 📅 2026-08-20
 * [denolib/awesome-deno](https://github.com/denolib/awesome-deno) ⭐ 4,407 | 🐛 2 | 📅 2026-08-14
 * [apvarun/awesome-bun](https://github.com/apvarun/awesome-bun) ⭐ 3,646 | 🐛 90 | 📅 2025-07-20

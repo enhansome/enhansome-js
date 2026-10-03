@@ -23,83 +23,84 @@
             "topics": []
           },
           "first_seen": "2026-08-28T06:27:56.730Z"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Bower",
+              "description": "Legacy front-end package manager.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "A package manager for the web",
+                "homepage": "bower.io",
+                "id": 5710341,
+                "language": "JavaScript",
+                "license": "MIT",
+                "last_commit": "2024-10-13T10:45:05Z",
+                "open_issues": 15,
+                "owner": "bower",
+                "repo": "bower",
+                "stars": 14900,
+                "topics": [
+                  "bower",
+                  "front-end",
+                  "javascript",
+                  "package-manager"
+                ]
+              },
+              "first_seen": "2026-08-28T06:27:56.730Z"
+            },
+            {
+              "node_type": "item",
+              "title": "component",
+              "description": "Client package management for building web apps.",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "description": "frontend package manager and build tool for modular web applications",
+                "homepage": "https://github.com/componentjs/guide",
+                "id": 5363235,
+                "language": "JavaScript",
+                "license": "MIT",
+                "last_commit": "2017-12-16T14:10:16Z",
+                "open_issues": 33,
+                "owner": "componentjs",
+                "repo": "component",
+                "stars": 4517,
+                "topics": []
+              },
+              "first_seen": "2026-08-28T06:27:56.730Z"
+            },
+            {
+              "node_type": "item",
+              "title": "Ender",
+              "description": "The no-library library.",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "description": "the no-library library: open module JavaScript framework",
+                "homepage": "http://enderjs.com",
+                "id": 1569010,
+                "language": "JavaScript",
+                "license": "NOASSERTION",
+                "last_commit": "2020-04-02T11:42:28Z",
+                "open_issues": 21,
+                "owner": "ender-js",
+                "repo": "Ender",
+                "stars": 1746,
+                "topics": []
+              },
+              "first_seen": "2026-08-28T06:27:56.730Z"
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Legacy / historical"
         }
       ],
       "title": "Package Managers"
-    },
-    {
-      "description": null,
-      "items": [
-        {
-          "node_type": "item",
-          "title": "Bower",
-          "description": "Legacy front-end package manager.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "description": "A package manager for the web",
-            "homepage": "bower.io",
-            "id": 5710341,
-            "language": "JavaScript",
-            "license": "MIT",
-            "last_commit": "2024-10-13T10:45:05Z",
-            "open_issues": 15,
-            "owner": "bower",
-            "repo": "bower",
-            "stars": 14900,
-            "topics": [
-              "bower",
-              "front-end",
-              "javascript",
-              "package-manager"
-            ]
-          },
-          "first_seen": "2026-08-28T06:27:56.730Z"
-        },
-        {
-          "node_type": "item",
-          "title": "component",
-          "description": "Client package management for building web apps.",
-          "children": [],
-          "repo_info": {
-            "archived": true,
-            "description": "frontend package manager and build tool for modular web applications",
-            "homepage": "https://github.com/componentjs/guide",
-            "id": 5363235,
-            "language": "JavaScript",
-            "license": "MIT",
-            "last_commit": "2017-12-16T14:10:16Z",
-            "open_issues": 33,
-            "owner": "componentjs",
-            "repo": "component",
-            "stars": 4517,
-            "topics": []
-          },
-          "first_seen": "2026-08-28T06:27:56.730Z"
-        },
-        {
-          "node_type": "item",
-          "title": "Ender",
-          "description": "The no-library library.",
-          "children": [],
-          "repo_info": {
-            "archived": true,
-            "description": "the no-library library: open module JavaScript framework",
-            "homepage": "http://enderjs.com",
-            "id": 1569010,
-            "language": "JavaScript",
-            "license": "NOASSERTION",
-            "last_commit": "2020-04-02T11:42:28Z",
-            "open_issues": 21,
-            "owner": "ender-js",
-            "repo": "Ender",
-            "stars": 1746,
-            "topics": []
-          },
-          "first_seen": "2026-08-28T06:27:56.730Z"
-        }
-      ],
-      "title": "Legacy / historical"
     },
     {
       "description": "Manage multiple packages/apps in one repo.",
@@ -298,7 +299,7 @@
                 "id": 3678731,
                 "language": "JavaScript",
                 "license": "MIT",
-                "last_commit": "2026-10-03T00:01:51Z",
+                "last_commit": "2026-10-03T02:38:19Z",
                 "open_issues": 126,
                 "owner": "webpack",
                 "repo": "webpack",
@@ -598,7 +599,7 @@
             "language": "TypeScript",
             "license": "MIT",
             "last_commit": "2026-09-06T19:59:32Z",
-            "open_issues": 381,
+            "open_issues": 382,
             "owner": "ajv-validator",
             "repo": "ajv",
             "stars": 14847,
@@ -658,10 +659,10 @@
                 "language": "TypeScript",
                 "license": "MIT",
                 "last_commit": "2026-10-02T10:56:40Z",
-                "open_issues": 223,
+                "open_issues": 224,
                 "owner": "jestjs",
                 "repo": "jest",
-                "stars": 45458,
+                "stars": 45457,
                 "topics": [
                   "easy",
                   "expectation",
@@ -883,7 +884,7 @@
                 "open_issues": 205,
                 "owner": "microsoft",
                 "repo": "playwright",
-                "stars": 97017,
+                "stars": 97022,
                 "topics": [
                   "automation",
                   "chrome",
@@ -920,7 +921,7 @@
                 "open_issues": 272,
                 "owner": "puppeteer",
                 "repo": "puppeteer",
-                "stars": 95643,
+                "stars": 95644,
                 "topics": [
                   "automation",
                   "chrome",
@@ -1043,11 +1044,11 @@
             "id": 75104123,
             "language": "JavaScript",
             "license": "MIT",
-            "last_commit": "2026-10-02T19:19:15Z",
+            "last_commit": "2026-10-03T02:26:54Z",
             "open_issues": 1464,
             "owner": "prettier",
             "repo": "prettier",
-            "stars": 52315,
+            "stars": 52316,
             "topics": [
               "angular",
               "ast",
@@ -1326,10 +1327,10 @@
                 "language": "JavaScript",
                 "license": "MIT",
                 "last_commit": "2026-10-02T15:51:45Z",
-                "open_issues": 381,
+                "open_issues": 383,
                 "owner": "mrdoob",
                 "repo": "three.js",
-                "stars": 116175,
+                "stars": 116179,
                 "topics": [
                   "3d",
                   "augmented-reality",
@@ -1363,7 +1364,7 @@
                 "open_issues": 19,
                 "owner": "d3",
                 "repo": "d3",
-                "stars": 113799,
+                "stars": 113800,
                 "topics": [
                   "chart",
                   "charts",
@@ -1447,7 +1448,7 @@
                 "language": "JavaScript",
                 "license": "BSD-3-Clause",
                 "last_commit": "2026-10-02T14:54:09Z",
-                "open_issues": 470,
+                "open_issues": 471,
                 "owner": "vega",
                 "repo": "vega",
                 "stars": 12006,
@@ -1616,10 +1617,10 @@
                 "language": "JavaScript",
                 "license": "MIT",
                 "last_commit": "2026-10-02T15:51:45Z",
-                "open_issues": 381,
+                "open_issues": 383,
                 "owner": "mrdoob",
                 "repo": "three.js",
-                "stars": 116175,
+                "stars": 116179,
                 "topics": [
                   "3d",
                   "augmented-reality",
@@ -1657,10 +1658,10 @@
                 "language": "JavaScript",
                 "license": "BSD-2-Clause",
                 "last_commit": "2026-10-02T10:34:43Z",
-                "open_issues": 586,
+                "open_issues": 588,
                 "owner": "Leaflet",
                 "repo": "Leaflet",
-                "stars": 45694,
+                "stars": 45695,
                 "topics": [
                   "javascript",
                   "leaflet",
@@ -1752,11 +1753,11 @@
                 "id": 207645083,
                 "language": "TypeScript",
                 "license": "MIT",
-                "last_commit": "2026-10-02T21:13:38Z",
+                "last_commit": "2026-10-03T04:09:39Z",
                 "open_issues": 174,
                 "owner": "TanStack",
                 "repo": "query",
-                "stars": 50393,
+                "stars": 50394,
                 "topics": [
                   "async",
                   "cache",
@@ -1791,7 +1792,7 @@
                 "language": "TypeScript",
                 "license": "MIT",
                 "last_commit": "2026-09-22T12:47:45Z",
-                "open_issues": 227,
+                "open_issues": 228,
                 "owner": "vercel",
                 "repo": "swr",
                 "stars": 32492,
@@ -1866,10 +1867,10 @@
                 "language": "TypeScript",
                 "license": "Apache-2.0",
                 "last_commit": "2026-10-02T17:09:08Z",
-                "open_issues": 2746,
+                "open_issues": 2747,
                 "owner": "prisma",
                 "repo": "orm",
-                "stars": 47688,
+                "stars": 47689,
                 "topics": [
                   "cockroachdb",
                   "database",
@@ -1908,10 +1909,10 @@
                 "language": "TypeScript",
                 "license": "MIT",
                 "last_commit": "2026-10-01T19:35:55Z",
-                "open_issues": 681,
+                "open_issues": 683,
                 "owner": "typeorm",
                 "repo": "typeorm",
-                "stars": 36657,
+                "stars": 36658,
                 "topics": [
                   "active-record",
                   "cockroachdb",
@@ -1944,10 +1945,10 @@
                 "language": "TypeScript",
                 "license": "Apache-2.0",
                 "last_commit": "2026-10-01T21:26:29Z",
-                "open_issues": 2096,
+                "open_issues": 2098,
                 "owner": "drizzle-team",
                 "repo": "drizzle-orm",
-                "stars": 35939,
+                "stars": 35940,
                 "topics": [
                   "bunjs",
                   "mysql",
@@ -1976,7 +1977,7 @@
                 "language": "TypeScript",
                 "license": "MIT",
                 "last_commit": "2026-10-02T00:21:37Z",
-                "open_issues": 1106,
+                "open_issues": 1107,
                 "owner": "sequelize",
                 "repo": "sequelize",
                 "stars": 30357,
@@ -2015,7 +2016,7 @@
                 "id": 597879,
                 "language": "JavaScript",
                 "license": "MIT",
-                "last_commit": "2026-10-03T01:39:00Z",
+                "last_commit": "2026-10-03T01:41:22Z",
                 "open_issues": 171,
                 "owner": "Automattic",
                 "repo": "mongoose",
@@ -2074,7 +2075,7 @@
                 "open_issues": 181,
                 "owner": "kysely-org",
                 "repo": "kysely",
-                "stars": 14253,
+                "stars": 14254,
                 "topics": [
                   "browser",
                   "bun",
@@ -2152,7 +2153,7 @@
                 "id": 162494199,
                 "language": "TypeScript",
                 "license": "MIT",
-                "last_commit": "2026-10-03T01:36:02Z",
+                "last_commit": "2026-10-03T04:20:32Z",
                 "open_issues": 391,
                 "owner": "taskforcesh",
                 "repo": "bullmq",
@@ -2338,7 +2339,7 @@
                 "open_issues": 202,
                 "owner": "TryGhost",
                 "repo": "Ghost",
-                "stars": 55473,
+                "stars": 55475,
                 "topics": [
                   "blogging",
                   "cms",
@@ -2427,7 +2428,7 @@
                 "language": "JavaScript",
                 "license": "MIT",
                 "last_commit": "2026-09-30T20:48:08Z",
-                "open_issues": 116,
+                "open_issues": 115,
                 "owner": "parallax",
                 "repo": "jsPDF",
                 "stars": 31312,
@@ -2516,7 +2517,7 @@
                 "language": "JavaScript",
                 "license": "NOASSERTION",
                 "last_commit": "2026-10-01T23:04:09Z",
-                "open_issues": 117,
+                "open_issues": 118,
                 "owner": "lodash",
                 "repo": "lodash",
                 "stars": 61260,
@@ -2624,7 +2625,7 @@
                 "open_issues": 189,
                 "owner": "ReactiveX",
                 "repo": "rxjs",
-                "stars": 31697,
+                "stars": 31696,
                 "topics": [
                   "javascript",
                   "rxjs"
@@ -3385,7 +3386,7 @@
                 "open_issues": 8,
                 "owner": "cure53",
                 "repo": "DOMPurify",
-                "stars": 17431,
+                "stars": 17432,
                 "topics": [
                   "cross-site-scripting",
                   "dom",
@@ -3657,7 +3658,7 @@
                 "open_issues": 211,
                 "owner": "yargs",
                 "repo": "yargs",
-                "stars": 11503,
+                "stars": 11504,
                 "topics": []
               },
               "first_seen": "2026-08-28T06:27:56.730Z"
@@ -3711,8 +3712,8 @@
             "id": 598342280,
             "language": "TypeScript",
             "license": "MIT",
-            "last_commit": "2026-10-03T01:38:55Z",
-            "open_issues": 637,
+            "last_commit": "2026-10-03T01:41:53Z",
+            "open_issues": 638,
             "owner": "langchain-ai",
             "repo": "langchainjs",
             "stars": 18245,
@@ -3767,7 +3768,7 @@
             "open_issues": 408,
             "owner": "trekhleb",
             "repo": "javascript-algorithms",
-            "stars": 196866,
+            "stars": 196867,
             "topics": [
               "algorithm",
               "algorithms",
@@ -3886,7 +3887,7 @@
         {
           "node_type": "item",
           "title": "sindresorhus/awesome",
-          "description": null,
+          "description": "sindresorhus/awesome",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -3899,7 +3900,7 @@
             "open_issues": 106,
             "owner": "sindresorhus",
             "repo": "awesome",
-            "stars": 513755,
+            "stars": 513797,
             "topics": [
               "awesome",
               "awesome-list",
@@ -3913,7 +3914,7 @@
         {
           "node_type": "item",
           "title": "enaqx/awesome-react",
-          "description": null,
+          "description": "enaqx/awesome-react",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -3926,7 +3927,7 @@
             "open_issues": 17,
             "owner": "enaqx",
             "repo": "awesome-react",
-            "stars": 74778,
+            "stars": 74782,
             "topics": [
               "awesome",
               "awesome-list",
@@ -3945,7 +3946,7 @@
         {
           "node_type": "item",
           "title": "denolib/awesome-deno",
-          "description": null,
+          "description": "denolib/awesome-deno",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -3970,7 +3971,7 @@
         {
           "node_type": "item",
           "title": "apvarun/awesome-bun",
-          "description": null,
+          "description": "oven-sh/awesome-bun",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -3983,7 +3984,7 @@
             "open_issues": 93,
             "owner": "oven-sh",
             "repo": "awesome-bun",
-            "stars": 3657,
+            "stars": 3658,
             "topics": [
               "awesome",
               "awesome-bun",
@@ -3999,7 +4000,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-03T01:39:13.602Z",
+    "last_updated": "2026-10-03T04:53:29.181Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated collection of awesome JavaScript libraries, tools, runtimes, resources, and shiny things — across browser, Node.js, Deno, Bun, edge/serverless, desktop, and mobile.",

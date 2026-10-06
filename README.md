@@ -1,471 +1,101 @@
-# Awesome JS with stars
+# Awesome TypeScript Books with stars
 
-A curated collection of awesome **JavaScript** libraries, tools, runtimes, resources, and shiny things — across **browser**, **Node.js**, **Deno**, **Bun**, **edge/serverless**, **desktop**, and **mobile**.
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![License: CC0](https://img.shields.io/badge/License-CC0--1.0-lightgrey.svg)](https://github.com/yokomakes/awesome-js/blob/HEAD/LICENSE)
 
-> Scope: anything primarily built for JavaScript/TypeScript ecosystems (not just browser-side).
+> A curated, hand-picked list of the best TypeScript books for learning and mastering TypeScript in 2026 — from beginner-friendly introductions to advanced type-system techniques, generics, and framework-specific guides for React and Node.js.
 
-* [Awesome JS](#awesome-js)
-  * [Runtimes](#runtimes)
-  * [Package Managers](#package-managers)
-  * [Monorepo & Workspace Tools](#monorepo--workspace-tools)
-  * [Module Systems](#module-systems)
-  * [Build Tools](#build-tools)
-    * [Transpilers](#transpilers)
-    * [Bundlers](#bundlers)
-    * [Minimizers](#minimizers)
-  * [Type Checking & Validation](#type-checking--validation)
-  * [Testing](#testing)
-    * [Test Runners](#test-runners)
-    * [Assertion & Mocking](#assertion--mocking)
-    * [E2E / Browser Automation](#e2e--browser-automation)
-    * [Coverage](#coverage)
-  * [Code Quality](#code-quality)
-  * [Documentation](#documentation)
-  * [Frontend](#frontend)
-    * [UI Frameworks](#ui-frameworks)
-    * [State Management](#state-management)
-    * [Data Visualization](#data-visualization)
-    * [Editors](#editors)
-    * [Animations](#animations)
-    * [Maps](#maps)
-  * [Backend](#backend)
-    * [Web Frameworks](#web-frameworks)
-    * [API Clients & Data Fetching](#api-clients--data-fetching)
-    * [Authentication](#authentication)
-    * [ORM & Databases](#orm--databases)
-    * [Queues & Jobs](#queues--jobs)
-    * [WebSockets](#websockets)
-    * [CMS](#cms)
-  * [Utilities](#utilities)
-    * [Files](#files)
-    * [Functional Programming](#functional-programming)
-    * [Reactive Programming](#reactive-programming)
-    * [Data Structures](#data-structures)
-    * [Date & Time](#date--time)
-    * [String](#string)
-    * [Number](#number)
-    * [Storage](#storage)
-    * [Color](#color)
-    * [I18n & L10n](#i18n--l10n)
-    * [Control Flow](#control-flow)
-    * [Routing](#routing)
-    * [RegExp](#regexp)
-    * [Security](#security)
-    * [Logging](#logging)
-    * [Benchmarking](#benchmarking)
-  * [Cross-Platform](#cross-platform)
-    * [CLI](#cli)
-    * [Desktop Apps](#desktop-apps)
-    * [Mobile Apps](#mobile-apps)
-  * [AI & ML](#ai--ml)
-  * [Generative AI](#generative-ai)
-  * [Articles & Posts](#articles--posts)
-* [Worth Reading](#worth-reading)
-* [Other Awesome Lists](#other-awesome-lists)
+Whether you're a JavaScript developer picking up TypeScript for the first time, or an experienced engineer looking to master advanced types and generics, this list helps you find the right TypeScript book for your level and use case.
+
+## Contents
+
+* [Quick Picks](#quick-picks)
+* [Beginner](#beginner)
+* [Intermediate](#intermediate)
+* [Advanced](#advanced)
+* [By Use Case](#by-use-case)
+  * [React + TypeScript](#react--typescript)
+  * [Node.js + TypeScript](#nodejs--typescript)
+* [Free / Online](#free--online)
+* [How to Choose](#how-to-choose)
 * [Contributing](#contributing)
 * [License](#license)
+* [About](#about)
+
+## Quick Picks
+
+| If you want...                       | Read this                                                                       |
+| ------------------------------------ | ------------------------------------------------------------------------------- |
+| The single best starting point       | [Learning TypeScript](#beginner) — Josh Goldberg                                |
+| The most-recommended "level up" book | [Effective TypeScript](#advanced) — Dan Vanderkam                               |
+| A free, no-cost option               | [TypeScript Deep Dive](#free--online) — Basarat Ali Syed                        |
+| To master advanced generics/types    | [Total TypeScript](#advanced) — Matt Pocock                                     |
+| TypeScript with React                | [Learn React with TypeScript](#react--typescript) — Carl Rippon                 |
+| TypeScript on the backend            | [Node.js Design Patterns with TypeScript](#nodejs--typescript) — Mario Casciaro |
+
+## Beginner
+
+* **[Learning TypeScript](https://www.oreilly.com/library/view/learning-typescript/9781098110321/)** — Josh Goldberg (O'Reilly, 2022). Widely regarded as the best first TypeScript book for absolute beginners; written by a TypeScript-ESLint maintainer, covering types, configuration, and tooling.
+* **[Programming TypeScript](https://www.oreilly.com/library/view/programming-typescript/9781492037644/)** — Boris Cherny (O'Reilly, 2019). The most practical TypeScript book for JS developers transitioning over — covers the type system in depth while staying focused on real-world patterns.
+* **[TypeScript Quickly](https://www.manning.com/books/typescript-quickly)** — Yakov Fain & Anton Moiseev (Manning, 2020). A hands-on, project-based introduction covering tsconfig, decorators, and generics for Angular/React developers.
+
+## Intermediate
+
+* **[Essential TypeScript 5, Third Edition](https://www.manning.com/books/essential-typescript-5-third-edition)** — Adam Freeman (Manning, 2023). A comprehensive, fully updated guide to TypeScript 5 — type annotations, generics, type guards, decorators, and using TypeScript with Angular/React.
+* **[Mastering TypeScript](https://www.packtpub.com/product/mastering-typescript-5th-edition/9781804614044)** — Nathan Rozentals (Packt). Covers TypeScript features alongside design patterns, testing, and framework integration (Angular, React, Node.js).
+* **[TypeScript in 50 Lessons](https://typescript-book.com/)** — Stefan Baumgartner (Smashing Magazine, 2020). 50 bite-sized lessons with strong coverage of structural typing, union discrimination, and conditional types.
+
+## Advanced
+
+* **[Effective TypeScript](https://effectivetypescript.com/)** — Dan Vanderkam (O'Reilly, 2nd Edition, 2024). The definitive "best practices" book — dozens of specific, actionable tips explaining the *why* behind idiomatic TypeScript.
+* **[Total TypeScript](https://www.totaltypescript.com/)** — Matt Pocock. A workshop-style resource (book-like courses + exercises) focused on type-level programming, generics, and advanced inference.
+* **[TypeScript Cookbook](https://www.oreilly.com/library/view/typescript-cookbook/9781098136345/)** — Stefan Baumgartner (O'Reilly, 2023). Recipe-style solutions for real-world typing problems, from generics to advanced utility types.
+* **[Type-Level TypeScript](https://type-level-typescript.com/)** — Software Mansion. Deep dive into TypeScript's type system as a programming language in its own right (conditional types, recursion, mapped types).
+* **[Pro TypeScript: Application-Scale JavaScript Development](https://link.springer.com/book/10.1007/978-1-4842-6576-1)** — Steve Fenton (Apress, 2nd Edition). Focused on using TypeScript's advanced features to build and scale large applications.
+
+## By Use Case
+
+### React + TypeScript
+
+* **[Learn React with TypeScript](https://www.packtpub.com/en-us/product/learn-react-with-typescript-9781836643166)** — Carl Rippon (Packt, 3rd Edition). A solid foundation for building modern React apps with TypeScript and Next.js, covering hooks and state management.
+* **[React and React Native, Fifth Edition](https://www.packtpub.com/en-us/product/react-and-react-native-9781805127307)** — Mikhail Sakhniuk & Adam Boduch (Packt, 2024). Covers cross-platform web, desktop, and mobile apps built with React, React Native, and TypeScript.
+* **[React: The Road to Enterprise (TypeScript Edition)](https://theroadtoenterprise.com/books/react-the-road-to-enterprise/typescript)** — Samuel Salisbury. An advanced handbook on enterprise-grade React architecture, state management, and testing with TypeScript.
+
+### Node.js + TypeScript
+
+* **[Node.js Design Patterns, Fourth Edition](https://www.packtpub.com/product/nodejs-design-patterns-fourth-edition/9781804614956)** — Mario Casciaro & Luciano Mammino. Applies classic and modern design patterns (event emitters, streams, modules, concurrency) to production Node.js backends, with TypeScript-friendly examples.
+* **[Node.js with TypeScript: How to Build Enterprise-Grade, Type-Safe Back-End APIs and Services](https://www.amazon.com/Node-js-TypeScript-Enterprise-Grade-Type-Safe-Services/dp/B0FYX2SH31)** — Corin Halstead (2025). A step-by-step guide to structuring projects, handling requests, databases, and authentication with strong typing throughout.
+
+## Free / Online
+
+* **[TypeScript Deep Dive](https://basarat.gitbook.io/typescript/)** — Basarat Ali Syed. One of the most popular free, community-maintained TypeScript books, covering everything from basics to advanced tips.
+* **[The TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html)** — Microsoft (official docs). Not a traditional book, but the canonical, continuously updated reference for the language.
+* **[Understanding TypeScript Generics](https://www.freecodecamp.org/news/typescript-generics/)** and similar freeCodeCamp long-form guides — good supplementary free reading.
+
+## How to Choose
+
+* **New to TypeScript (know JavaScript):** start with *Learning TypeScript* or *Programming TypeScript*.
+* **Comfortable with the basics, want to write better code:** read *Effective TypeScript*.
+* **Want to go deep on the type system itself:** *Total TypeScript* or *Type-Level TypeScript*.
+* **Building with a specific framework:** pick the matching book under [By Use Case](#by-use-case).
+* **Budget-conscious / just want something free:** *TypeScript Deep Dive* covers almost everything the paid beginner books do.
+
+## Contributing
+
+Suggestions welcome! Feel free to open a pull request or issue to add a book, fix a broken link, or improve a description. Please keep entries in the format:
+
+```
+- **[Title](link)** — Author (Publisher, Year). One-sentence description of what makes it worth reading.
+```
+
+## License
+
+[CC0 1.0](https://github.com/yokomakes/awesome-js/blob/HEAD/LICENSE) — This list is free to use, share, and adapt, with no attribution required.
+
+## About
+
+**Awesome TypeScript Books** is a community-curated, open-source list of the best books, guides, and free resources for learning TypeScript — covering everything from beginner fundamentals to advanced type-level programming. Contributions and suggestions are always welcome.
 
 ***
 
-## Runtimes
-
-*Where JavaScript runs.*
-
-* [Node.js](https://nodejs.org/) - Server-side JavaScript runtime.
-* [Deno](https://deno.com/runtime) - Secure runtime with modern tooling built-in.
-* [Bun](https://bun.sh/) - Fast runtime + bundler + package manager.
-* [Cloudflare Workers](https://developers.cloudflare.com/workers/) - Edge/serverless JavaScript runtime.
-* [Electron](https://www.electronjs.org/) - Build cross-platform desktop apps with JavaScript.
-* [React Native](https://reactnative.dev/) - Build native mobile apps with JavaScript/TypeScript.
-
-## Package Managers
-
-*Host libraries and provide tools for fetching and packaging them.*
-
-* [jspm](https://github.com/jspm/jspm-cli) ⭐ 3,867 | 🐛 72 | 🌐 TypeScript | 📅 2026-09-20 - Package management & import maps tooling.
-* [npm](https://www.npmjs.com/) - Package manager for JavaScript.
-* [yarn](https://yarnpkg.com/) - Fast, reliable dependency management.
-* [pnpm](https://pnpm.io/) - Fast, disk space efficient package manager.
-* [bun](https://bun.sh/) - Runtime + package manager.
-
-<details>
-<summary>Legacy / historical</summary>
-
-* [Bower](https://github.com/bower/bower) ⭐ 14,900 | 🐛 15 | 🌐 JavaScript | 📅 2024-10-13 - Legacy front-end package manager.
-* [component](https://github.com/componentjs/component) ⚠️ Archived - Client package management for building web apps.
-* [Ender](https://github.com/ender-js/Ender) ⚠️ Archived - The no-library library.
-
-</details>
-
-## Monorepo & Workspace Tools
-
-*Manage multiple packages/apps in one repo.*
-
-* [Bit](https://github.com/teambit/bit) ⭐ 18,493 | 🐛 76 | 🌐 TypeScript | 📅 2026-10-03 - Create, find, and reuse components across apps.
-* [Changesets](https://github.com/changesets/changesets) ⭐ 12,466 | 🐛 270 | 🌐 TypeScript | 📅 2026-09-27 - Versioning + changelogs for monorepos.
-* [Nx](https://nx.dev/) - Smart, fast monorepos for JS/TS.
-* [Turborepo](https://turbo.build/repo) - High-performance build system for monorepos.
-* [Lerna](https://lerna.js.org/) - Monorepo tooling (often combined with npm/yarn/pnpm workspaces).
-
-## Module Systems
-
-*How code is loaded (ESM/CJS + loaders).*
-
-* [browserify](https://github.com/substack/node-browserify) ⭐ 14,694 | 🐛 387 | 🌐 JavaScript | 📅 2026-09-21 - Bundle Node-style `require()` for browsers.
-* [SystemJS](https://github.com/systemjs/systemjs) ⭐ 13,087 | 🐛 77 | 🌐 JavaScript | 📅 2026-06-14 - Dynamic module loader for browsers and Node.
-* [RequireJS](https://github.com/requirejs/requirejs) ⭐ 12,910 | 🐛 289 | 🌐 JavaScript | 📅 2025-11-30 - AMD module loader.
-* [ES Modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules) - Standard module system for modern JS.
-
-## Build Tools
-
-### Transpilers
-
-*Convert modern JS/TS syntax into target environments.*
-
-* [Babel](https://github.com/babel/babel) ⭐ 44,048 | 🐛 768 | 🌐 TypeScript | 📅 2026-10-03 - JavaScript compiler.
-* [SWC](https://swc.rs/) - Fast compiler platform (JS/TS).
-
-### Bundlers
-
-*Bundle modules and assets.*
-
-* [webpack](https://github.com/webpack/webpack) ⭐ 65,957 | 🐛 128 | 🌐 JavaScript | 📅 2026-10-04 - Mature bundler for complex apps.
-* [Parcel](https://github.com/parcel-bundler/parcel) ⭐ 44,019 | 🐛 610 | 🌐 JavaScript | 📅 2026-09-29 - Zero-config bundler.
-* [esbuild](https://github.com/evanw/esbuild) ⭐ 40,071 | 🐛 627 | 🌐 Go | 📅 2026-08-09 - Extremely fast bundler/transpiler.
-* [Rollup](https://github.com/rollup/rollup) ⭐ 26,305 | 🐛 610 | 🌐 JavaScript | 📅 2026-10-03 - Great for libraries (ESM-first).
-* [Microbundle](https://github.com/developit/microbundle) ⭐ 8,124 | 🐛 102 | 🌐 JavaScript | 📅 2026-02-01 - Zero-config bundler for tiny modules.
-* [FuseBox](https://github.com/fuse-box/fuse-box) ⚠️ Archived - A bundler that does it right.
-* [Vite](https://vite.dev/) - Modern dev server + bundler.
-* [Snowpack](https://www.snowpack.dev/) - Modern dev/build tool (historically popular).
-* [bundlephobia](https://bundlephobia.com/) - Quick npm package size checker.
-
-### Minimizers
-
-*Minify JS for production.*
-
-* [UglifyJS](https://github.com/mishoo/UglifyJS) ⭐ 13,377 | 🐛 45 | 🌐 JavaScript | 📅 2024-11-22 - Classic minifier (legacy for modern syntax).
-* [Terser](https://github.com/terser/terser) ⭐ 9,344 | 🐛 367 | 🌐 JavaScript | 📅 2026-09-24 - Minifier for ES6+.
-
-## Type Checking & Validation
-
-* [Zod](https://github.com/colinhacks/zod) ⭐ 44,054 | 🐛 86 | 🌐 TypeScript | 📅 2026-10-02 - TypeScript-first schema validation.
-* [Yup](https://github.com/jquense/yup) ⭐ 23,659 | 🐛 255 | 🌐 TypeScript | 📅 2026-10-02 - Schema builder and validator.
-* [Ajv](https://github.com/ajv-validator/ajv) ⭐ 14,850 | 🐛 382 | 🌐 TypeScript | 📅 2026-09-06 - Fast JSON Schema validator.
-* [io-ts](https://github.com/gcanti/io-ts) ⭐ 6,816 | 🐛 161 | 🌐 TypeScript | 📅 2024-12-10 - Runtime types + decoding.
-* [TypeScript](https://www.typescriptlang.org/) - Typed superset of JavaScript.
-* [Flow](https://flow.org/) - Static type checker for JavaScript.
-
-## Testing
-
-### Test Runners
-
-* [Jest](https://github.com/facebook/jest) ⭐ 45,460 | 🐛 224 | 🌐 TypeScript | 📅 2026-10-02 - Painless JavaScript unit testing.
-* [Mocha](https://github.com/mochajs/mocha) ⭐ 22,891 | 🐛 241 | 🌐 JavaScript | 📅 2026-10-03 - Flexible test framework for Node and browser.
-* [AVA](https://github.com/avajs/ava) ⭐ 20,822 | 🐛 83 | 🌐 JavaScript | 📅 2026-06-17 - Futuristic JavaScript test runner.
-* [Tape](https://github.com/substack/tape) ⭐ 5,797 | 🐛 40 | 🌐 JavaScript | 📅 2026-09-18 - Tap-producing test harness.
-* [QUnit](https://github.com/qunitjs/qunit) ⭐ 4,032 | 🐛 51 | 🌐 JavaScript | 📅 2026-09-29 - Easy-to-use unit testing framework.
-* [Vitest](https://vitest.dev/) - Fast unit test framework powered by Vite.
-
-### Assertion & Mocking
-
-* [Sinon](https://github.com/sinonjs/sinon) ⭐ 9,756 | 🐛 70 | 🌐 JavaScript | 📅 2026-10-03 - Spies, stubs, and mocks.
-* [Chai](https://github.com/chaijs/chai) ⭐ 8,267 | 🐛 94 | 🌐 JavaScript | 📅 2026-10-03 - BDD/TDD assertion library.
-* [Testing Library](https://testing-library.com/) - Test UI the way users interact.
-
-### E2E / Browser Automation
-
-* [Playwright](https://github.com/microsoft/playwright) ⭐ 97,058 | 🐛 211 | 🌐 TypeScript | 📅 2026-10-03 - Automate Chromium/Firefox/WebKit.
-* [Puppeteer](https://github.com/GoogleChrome/puppeteer) ⭐ 95,649 | 🐛 275 | 🌐 TypeScript | 📅 2026-10-04 - Headless Chrome/Chromium automation.
-* [TestCafe](https://github.com/DevExpress/testcafe) ⭐ 9,898 | 🐛 45 | 🌐 JavaScript | 📅 2026-09-10 - Automated browser testing.
-* [Cypress](https://www.cypress.io/) - End-to-end testing framework.
-* [WebdriverIO](https://webdriver.io/) - Node.js browser/mobile automation.
-
-### Coverage
-
-* [Istanbul / nyc](https://github.com/istanbuljs/nyc) ⭐ 5,758 | 🐛 208 | 🌐 JavaScript | 📅 2026-05-17 - Coverage reporting.
-* [c8](https://github.com/bcoe/c8) ⭐ 2,121 | 🐛 122 | 🌐 JavaScript | 📅 2026-10-01 - Coverage using V8’s built-in coverage.
-
-## Code Quality
-
-*Format, lint, and keep code healthy.*
-
-* [Prettier](https://github.com/prettier/prettier) ⭐ 52,314 | 🐛 1,468 | 🌐 JavaScript | 📅 2026-10-03 - Opinionated formatter.
-* [Husky](https://github.com/typicode/husky) ⭐ 35,337 | 🐛 107 | 🌐 JavaScript | 📅 2026-03-19 - Git hooks made easy.
-* [Standard](https://github.com/standard/standard) ⭐ 29,428 | 🐛 128 | 🌐 JavaScript | 📅 2025-07-11 - JavaScript Standard Style.
-* [ESLint](https://github.com/eslint/eslint) ⭐ 27,532 | 🐛 124 | 🌐 JavaScript | 📅 2026-10-03 - Pluggable linting utility.
-* [lint-staged](https://github.com/lint-staged/lint-staged) ⭐ 14,741 | 🐛 2 | 🌐 JavaScript | 📅 2026-09-26 - Run linters on staged files.
-* [Biome](https://biomejs.dev/) - Fast formatter + linter (JS/TS).
-
-## Documentation
-
-*Write and publish docs, API refs, and guides.*
-
-* [DevDocs](https://devdocs.io/) - Fast API documentation browser.
-* [Docusaurus](https://docusaurus.io/) - Documentation site generator.
-* [VitePress](https://vitepress.dev/) - Vite-powered docs.
-* [Docsify](https://docsify.js.org/) - Docs site without a build step.
-* [Storybook](https://storybook.js.org/) - UI component workshop + docs.
-* [typedoc](https://typedoc.org/) - TypeScript API documentation.
-
-## Frontend
-
-### UI Frameworks
-
-* [Preact](https://github.com/preactjs/preact) ⭐ 38,904 | 🐛 49 | 🌐 JavaScript | 📅 2026-10-03 - Fast, small React alternative.
-* [Alpine.js](https://github.com/alpinejs/alpine) ⭐ 31,956 | 🐛 14 | 🌐 HTML | 📅 2026-09-29 - Minimal reactive framework.
-* [React](https://react.dev/) - UI library.
-* [Vue](https://vuejs.org/) - Progressive framework.
-* [Svelte](https://svelte.dev/) - Compiler-based UI framework.
-* [Angular](https://angular.dev/) - Full-featured framework (TypeScript).
-* [Solid](https://www.solidjs.com/) - Fine-grained reactivity.
-
-### State Management
-
-* [Zustand](https://github.com/pmndrs/zustand) ⭐ 58,784 | 🐛 7 | 🌐 TypeScript | 📅 2026-09-29 - Small, fast state management for React.
-* [MobX](https://github.com/mobxjs/mobx) ⭐ 28,210 | 🐛 44 | 🌐 TypeScript | 📅 2026-10-02 - Simple, scalable state management.
-* [Redux](https://redux.js.org/) - Predictable state container.
-* [XState](https://xstate.js.org/) - State machines and statecharts.
-
-### Data Visualization
-
-* [Three.js](https://github.com/mrdoob/three.js) ⭐ 116,197 | 🐛 389 | 🌐 JavaScript | 📅 2026-10-03 - 3D library.
-* [D3](https://github.com/d3/d3) ⭐ 113,802 | 🐛 19 | 🌐 Shell | 📅 2026-05-28 - Visualization library for HTML/SVG/Canvas.
-* [Chart.js](https://github.com/chartjs/Chart.js) ⭐ 67,731 | 🐛 592 | 🌐 JavaScript | 📅 2026-10-03 - Simple canvas charts.
-* [ECharts](https://github.com/apache/echarts) ⭐ 67,445 | 🐛 1,494 | 🌐 TypeScript | 📅 2026-10-03 - Powerful charting.
-* [Vega](https://github.com/vega/vega) ⭐ 12,006 | 🐛 471 | 🌐 JavaScript | 📅 2026-10-02 - Visualization grammar.
-* [Cytoscape.js](https://github.com/cytoscape/cytoscape.js) ⭐ 11,232 | 🐛 24 | 🌐 JavaScript | 📅 2026-10-02 - Graph theory visualizations.
-
-### Editors
-
-* [Quill](https://github.com/quilljs/quill) ⭐ 47,369 | 🐛 662 | 🌐 TypeScript | 📅 2025-07-25 - Rich text editor.
-* [Ace](https://github.com/ajaxorg/ace) ⭐ 27,140 | 🐛 136 | 🌐 JavaScript | 📅 2026-09-23 - Browser code editor.
-* [TinyMCE](https://github.com/tinymce/tinymce) ⭐ 16,306 | 🐛 421 | 🌐 TypeScript | 📅 2026-10-02 - Rich text editor.
-* [CodeMirror](https://github.com/codemirror/dev) ⚠️ Archived - Code editor.
-* [Monaco Editor](https://microsoft.github.io/monaco-editor/) - VS Code editor core.
-
-### Animations
-
-* [three.js](https://github.com/mrdoob/three.js) ⭐ 116,197 | 🐛 389 | 🌐 JavaScript | 📅 2026-10-03 - 3D animations and scenes.
-* [GSAP](https://gsap.com/) - High-performance animations.
-* [anime.js](https://animejs.com/) - Animation engine.
-* [motion](https://motion.dev/) - Modern animation library.
-
-### Maps
-
-* [Leaflet](https://github.com/Leaflet/Leaflet) ⭐ 45,698 | 🐛 588 | 🌐 JavaScript | 📅 2026-10-02 - Interactive maps.
-* [Cesium](https://github.com/CesiumGS/cesium) ⭐ 15,795 | 🐛 1,697 | 🌐 JavaScript | 📅 2026-10-03 - 3D globes and maps.
-* [MapLibre GL JS](https://maplibre.org/maplibre-gl-js/docs/) - Open-source WebGL maps.
-* [OpenLayers](https://openlayers.org/) - Feature-packed mapping library.
-
-## Backend
-
-### Web Frameworks
-
-* [Express](https://expressjs.com/) - Minimal Node.js web framework.
-* [Fastify](https://www.fastify.io/) - Fast, schema-based framework.
-* [NestJS](https://nestjs.com/) - Opinionated framework (TypeScript-first).
-* [Koa](https://koajs.com/) - Lightweight middleware framework.
-* [Hono](https://hono.dev/) - Small, fast framework for edge runtimes (also Node).
-* [SvelteKit](https://kit.svelte.dev/) - Full-stack Svelte framework.
-* [Next.js](https://nextjs.org/) - Full-stack React framework.
-
-### API Clients & Data Fetching
-
-* [axios](https://github.com/axios/axios) ⭐ 109,246 | 🐛 106 | 🌐 JavaScript | 📅 2026-10-03 - HTTP client for Node and browser.
-* [TanStack Query](https://github.com/TanStack/query) ⭐ 50,395 | 🐛 174 | 🌐 TypeScript | 📅 2026-10-03 - Async state + caching.
-* [SWR](https://github.com/vercel/swr) ⭐ 32,488 | 🐛 229 | 🌐 TypeScript | 📅 2026-09-22 - React Hooks data fetching.
-* [ky](https://github.com/sindresorhus/ky) ⭐ 17,105 | 🐛 2 | 🌐 TypeScript | 📅 2026-09-16 - Tiny Fetch-based HTTP client.
-
-### Authentication
-
-* [Passport](https://www.passportjs.org/) - Authentication middleware for Node.
-* [Lucia](https://lucia-auth.com/) - Auth library (TypeScript-friendly).
-* [NextAuth.js](https://authjs.dev/) - Authentication for Next.js and beyond.
-
-### ORM & Databases
-
-* [Prisma](https://github.com/prisma/prisma) ⭐ 47,689 | 🐛 2,749 | 🌐 TypeScript | 📅 2026-10-02 - Type-safe ORM.
-* [TypeORM](https://github.com/typeorm/typeorm) ⭐ 36,658 | 🐛 688 | 🌐 TypeScript | 📅 2026-10-01 - ORM for TS/JS.
-* [Drizzle ORM](https://github.com/drizzle-team/drizzle-orm) ⭐ 35,943 | 🐛 2,102 | 🌐 TypeScript | 📅 2026-10-01 - SQL-first TypeScript ORM.
-* [Sequelize](https://github.com/sequelize/sequelize) ⭐ 30,357 | 🐛 1,105 | 🌐 TypeScript | 📅 2026-10-04 - Feature-rich ORM.
-* [Mongoose](https://github.com/Automattic/mongoose) ⭐ 27,468 | 🐛 171 | 🌐 JavaScript | 📅 2026-10-03 - MongoDB object modeling.
-* [Knex](https://github.com/knex/knex) ⭐ 20,343 | 🐛 754 | 🌐 JavaScript | 📅 2026-06-26 - SQL query builder.
-* [Kysely](https://github.com/kysely-org/kysely) ⭐ 14,259 | 🐛 181 | 🌐 TypeScript | 📅 2026-10-03 - Type-safe SQL query builder.
-
-### Queues & Jobs
-
-* [Agenda](https://github.com/agenda/agenda) ⭐ 9,705 | 🐛 42 | 🌐 HTML | 📅 2026-07-21 - Job scheduling for Node.
-* [BullMQ](https://github.com/taskforcesh/bullmq) ⭐ 9,466 | 🐛 392 | 🌐 TypeScript | 📅 2026-10-04 - Redis-backed queue.
-* [Bree](https://github.com/breejs/bree) ⭐ 3,294 | 🐛 29 | 🌐 JavaScript | 📅 2026-02-17 - Job scheduler using worker threads.
-
-### WebSockets
-
-* [Socket.IO](https://github.com/socketio/socket.io) ⭐ 63,217 | 🐛 183 | 🌐 TypeScript | 📅 2026-09-29 - Realtime framework with fallbacks.
-* [ws](https://github.com/websockets/ws) ⭐ 22,805 | 🐛 5 | 🌐 JavaScript | 📅 2026-09-26 - Fast WebSocket implementation.
-
-### CMS
-
-* [Strapi](https://github.com/strapi/strapi) ⭐ 73,276 | 🐛 578 | 🌐 TypeScript | 📅 2026-10-02 - Open-source headless CMS.
-* [Ghost](https://github.com/tryghost/Ghost) ⭐ 55,479 | 🐛 206 | 🌐 TypeScript | 📅 2026-10-04 - Publishing platform.
-* [KeystoneJS](https://github.com/keystonejs/keystone) ⭐ 9,979 | 🐛 145 | 🌐 TypeScript | 📅 2026-09-28 - CMS + app framework.
-
-## Utilities
-
-### Files
-
-* [PDF.js](https://github.com/mozilla/pdf.js) ⭐ 53,975 | 🐛 430 | 🌐 JavaScript | 📅 2026-10-03 - PDF reader in JavaScript.
-* [jsPDF](https://github.com/parallax/jsPDF) ⭐ 31,310 | 🐛 115 | 🌐 JavaScript | 📅 2026-09-30 - PDF generation.
-* [Papa Parse](https://github.com/mholt/PapaParse) ⭐ 13,581 | 🐛 226 | 🌐 JavaScript | 📅 2026-09-15 - CSV parsing.
-* [diff2html](https://github.com/rtfpessoa/diff2html) ⭐ 3,415 | 🐛 34 | 🌐 TypeScript | 📅 2026-05-08 - Git diff → pretty HTML.
-
-### Functional Programming
-
-* [lodash](https://github.com/lodash/lodash) ⭐ 61,258 | 🐛 119 | 🌐 JavaScript | 📅 2026-10-01 - Utility library.
-* [underscore](https://github.com/jashkenas/underscore) ⭐ 27,320 | 🐛 53 | 🌐 JavaScript | 📅 2026-09-28 - Utility belt.
-* [ramda](https://github.com/ramda/ramda) ⭐ 24,047 | 🐛 153 | 🌐 JavaScript | 📅 2026-10-03 - Practical FP library.
-* [fxjs](https://github.com/marpple/FxTS) ⭐ 1,168 | 🐛 8 | 🌐 TypeScript | 📅 2026-08-29 - Lazy evaluation + concurrency helpers.
-
-### Reactive Programming
-
-* [RxJS](https://github.com/ReactiveX/rxjs) ⭐ 31,696 | 🐛 189 | 🌐 TypeScript | 📅 2026-08-08 - Reactive programming library.
-* [Bacon.js](https://github.com/baconjs/bacon.js) ⭐ 6,453 | 🐛 86 | 🌐 TypeScript | 📅 2025-04-18 - FRP library.
-* [Most.js](https://github.com/cujojs/most) ⭐ 3,484 | 🐛 50 | 🌐 JavaScript | 📅 2022-12-06 - High-performance FRP library.
-
-### Data Structures
-
-* [immutable-js](https://github.com/immutable-js/immutable-js) ⭐ 33,030 | 🐛 145 | 🌐 TypeScript | 📅 2026-10-01 - Persistent data structures.
-* [js-sdsl](https://github.com/zly201/js-sdsl) ⚠️ Archived - STL-like containers for JS.
-
-### Date & Time
-
-* [dayjs](https://github.com/iamkun/dayjs) ⭐ 48,666 | 🐛 1,353 | 🌐 JavaScript | 📅 2026-09-15 - Small Moment-like API.
-* [date-fns](https://github.com/date-fns/date-fns) ⭐ 36,651 | 🐛 1,032 | 🌐 TypeScript | 📅 2026-09-22 - Modern date utility library.
-* [luxon](https://github.com/moment/luxon) ⭐ 16,459 | 🐛 197 | 🌐 JavaScript | 📅 2026-08-09 - Dates and times with Intl.
-* [ms](https://github.com/vercel/ms) ⭐ 5,557 | 🐛 39 | 🌐 TypeScript | 📅 2026-05-20 - Millisecond conversion utility.
-
-### String
-
-* [query-string](https://github.com/sindresorhus/query-string) ⭐ 6,909 | 🐛 3 | 🌐 JavaScript | 📅 2026-09-01 - Parse/stringify URL query strings.
-* [he](https://github.com/mathiasbynens/he) ⭐ 3,593 | 🐛 23 | 🌐 JavaScript | 📅 2021-12-29 - HTML entity encoder/decoder.
-* [sprintf.js](https://github.com/alexei/sprintf.js) ⭐ 2,139 | 🐛 65 | 🌐 JavaScript | 📅 2024-04-05 - sprintf implementation.
-
-### Number
-
-* [Numeral.js](https://github.com/adamwdraper/Numeral-js) ⭐ 9,700 | 🐛 344 | 🌐 JavaScript | 📅 2026-02-15 - Number formatting.
-* [chance](https://github.com/chancejs/chancejs) ⭐ 6,533 | 🐛 174 | 🌐 JavaScript | 📅 2025-05-18 - Random generator helpers.
-* [Fraction.js](https://github.com/infusion/Fraction.js) ⭐ 695 | 🐛 5 | 🌐 JavaScript | 📅 2025-09-26 - Rational numbers.
-
-### Storage
-
-* [localForage](https://github.com/localForage/localForage) ⭐ 25,809 | 🐛 250 | 🌐 JavaScript | 📅 2024-07-30 - Offline storage wrapper.
-* [js-cookie](https://github.com/js-cookie/js-cookie) ⭐ 22,573 | 🐛 10 | 🌐 JavaScript | 📅 2026-09-17 - Cookie API.
-* [Dexie.js](https://github.com/dexie/Dexie.js) ⭐ 14,622 | 🐛 597 | 🌐 TypeScript | 📅 2026-09-28 - IndexedDB wrapper.
-
-### Color
-
-* [chroma.js](https://github.com/gka/chroma.js) ⭐ 10,592 | 🐛 66 | 🌐 JavaScript | 📅 2026-09-14 - Color manipulations.
-* [randomColor](https://github.com/davidmerfield/randomColor) ⭐ 6,120 | 🐛 16 | 🌐 JavaScript | 📅 2025-12-03 - Color generator.
-* [TinyColor](https://github.com/bgrins/TinyColor) ⭐ 5,251 | 🐛 108 | 🌐 JavaScript | 📅 2024-06-26 - Color manipulation/conversion.
-
-### I18n & L10n
-
-* [i18next](https://github.com/i18next/i18next) ⭐ 8,638 | 🐛 2 | 🌐 JavaScript | 📅 2026-09-03 - Internationalization framework.
-* [ttag](https://github.com/ttag-org/ttag) ⭐ 354 | 🐛 50 | 🌐 TypeScript | 📅 2025-07-01 - Modern i18n using tagged templates.
-
-### Control Flow
-
-* [async](https://github.com/caolan/async) ⭐ 28,119 | 🐛 22 | 🌐 JavaScript | 📅 2026-10-01 - Async utilities.
-* [p-limit](https://github.com/sindresorhus/p-limit) ⭐ 2,927 | 🐛 0 | 🌐 JavaScript | 📅 2026-09-18 - Limit concurrent promises.
-* [p-retry](https://github.com/sindresorhus/p-retry) ⭐ 1,035 | 🐛 1 | 🌐 JavaScript | 📅 2026-09-18 - Retry async functions.
-
-### Routing
-
-* [page.js](https://github.com/visionmedia/page.js) ⭐ 7,674 | 🐛 126 | 🌐 JavaScript | 📅 2023-06-27 - Micro client-side router.
-* [director](https://github.com/flatiron/director) ⭐ 5,571 | 🐛 124 | 🌐 JavaScript | 📅 2020-12-26 - Isomorphic router.
-
-### RegExp
-
-* [Regex101](https://regex101.com/#javascript) - Online regex tester/debugger.
-* [RegExr](https://regexr.com/) - Regex editor and learning tool.
-
-### Security
-
-* [DOMPurify](https://github.com/cure53/DOMPurify) ⭐ 17,433 | 🐛 0 | 🌐 JavaScript | 📅 2026-10-03 - XSS sanitizer for HTML/SVG/MathML.
-* [js-xss](https://github.com/leizongmin/js-xss) ⭐ 5,308 | 🐛 69 | 🌐 HTML | 📅 2026-05-06 - Sanitize untrusted HTML.
-* [sanitize-html](https://github.com/apostrophecms/sanitize-html) ⚠️ Archived - HTML sanitizer.
-
-### Logging
-
-* [winston](https://github.com/winstonjs/winston) ⭐ 24,522 | 🐛 538 | 🌐 JavaScript | 📅 2026-07-20 - Multi-transport async logging.
-* [pino](https://github.com/pinojs/pino) ⭐ 18,236 | 🐛 168 | 🌐 JavaScript | 📅 2026-10-02 - Very fast logger for Node.
-* [loglevel](https://github.com/pimterry/loglevel) ⭐ 2,747 | 🐛 19 | 🌐 JavaScript | 📅 2025-03-20 - Minimal log level wrapper.
-
-### Benchmarking
-
-* [benchmark.js](https://github.com/bestiejs/benchmark.js) ⚠️ Archived - Benchmarking library.
-* [matcha](https://github.com/logicalparadox/matcha) ⭐ 562 | 🐛 17 | 🌐 JavaScript | 📅 2020-09-04 - Simple benchmarking runner.
-
-## Cross-Platform
-
-### CLI
-
-* [zx](https://github.com/google/zx) ⭐ 45,774 | 🐛 65 | 🌐 JavaScript | 📅 2026-08-14 - Write shell scripts in JavaScript.
-* [commander](https://github.com/tj/commander.js) ⭐ 28,415 | 🐛 20 | 🌐 JavaScript | 📅 2026-10-01 - CLI framework.
-* [yargs](https://github.com/yargs/yargs) ⭐ 11,504 | 🐛 213 | 🌐 JavaScript | 📅 2026-10-01 - CLI argument parsing.
-* [oclif](https://github.com/oclif/oclif) ⭐ 9,594 | 🐛 22 | 🌐 TypeScript | 📅 2026-09-25 - Opinionated CLI framework.
-
-### Desktop Apps
-
-* [Electron](https://www.electronjs.org/) - Cross-platform desktop apps.
-* [Tauri](https://tauri.app/) - Smaller desktop apps (JS frontend + Rust core).
-
-### Mobile Apps
-
-* [React Native](https://reactnative.dev/) - Native mobile apps with JS/TS.
-* [Expo](https://expo.dev/) - Tooling + platform for React Native apps.
-* [Ionic](https://ionicframework.com/) - Hybrid app framework.
-
-## AI & ML
-
-* [TensorFlow.js](https://www.tensorflow.org/js/) - Train/deploy ML models in JS.
-* [Brain.js](https://github.com/BrainJS/brain.js) ⭐ 14,861 | 🐛 90 | 🌐 TypeScript | 📅 2024-09-26 - Neural networks in JavaScript.
-* [ml5.js](https://ml5js.org/) - Friendly ML for the web.
-
-## Generative AI
-
-* [LangChain.js](https://github.com/langchain-ai/langchainjs) ⭐ 18,246 | 🐛 637 | 🌐 TypeScript | 📅 2026-10-03 - LLM application framework for JS/TS.
-* [OpenAI SDK](https://github.com/openai/openai-node) ⭐ 11,200 | 🐛 9 | 🌐 TypeScript | 📅 2026-10-02 - Official JavaScript/TypeScript library for the OpenAI API.
-* [Vercel AI SDK](https://sdk.vercel.ai/docs) - Build AI features for web apps.
-
-## Articles & Posts
-
-* [javascript-algorithms](https://github.com/trekhleb/javascript-algorithms) ⭐ 196,868 | 🐛 408 | 🌐 JavaScript | 📅 2026-07-26 - Algorithms and data structures in JS.
-* [Clean Code JavaScript](https://github.com/ryanmcdermott/clean-code-javascript) ⭐ 94,759 | 🐛 123 | 🌐 JavaScript | 📅 2024-07-29 - Clean Code ideas adapted for JS.
-* [Roadmap.sh JavaScript Roadmap](https://roadmap.sh/javascript) - Community learning roadmap.
-
-# Worth Reading
-
-* [You Don’t Know JS Yet](https://github.com/getify/You-Dont-Know-JS) ⭐ 185,010 | 🐛 2 | 📅 2026-02-15 - Deep dive series on JS fundamentals and internals.
-* [braziljs/js-the-right-way](https://github.com/braziljs/js-the-right-way/) ⭐ 8,668 | 🐛 0 | 🌐 HTML | 📅 2026-07-29 - Quick reference for JS best practices.
-* [Superhero.js](http://superherojs.com) - Resources for creating and maintaining large JS codebases.
-
-# Other Awesome Lists
-
-* [sindresorhus/awesome](https://github.com/sindresorhus/awesome) ⭐ 514,197 | 🐛 107 | 📅 2026-09-02
-* [enaqx/awesome-react](https://github.com/enaqx/awesome-react) ⭐ 74,793 | 🐛 18 | 📅 2026-09-04
-* [denolib/awesome-deno](https://github.com/denolib/awesome-deno) ⭐ 4,411 | 🐛 2 | 📅 2026-09-28
-* [apvarun/awesome-bun](https://github.com/apvarun/awesome-bun) ⭐ 3,658 | 🐛 93 | 📅 2025-07-20
-
-# Contributing
-
-Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first.
-
-# License
-
-[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
-
-To the extent possible under law, the authors have waived all copyright and related or neighboring rights to this work.
-
-***
-
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-04._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-06._

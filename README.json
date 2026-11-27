@@ -1,7 +1,7 @@
 {
   "items": [],
   "metadata": {
-    "last_updated": "2026-11-26T04:38:45.282Z",
+    "last_updated": "2026-11-27T04:43:08.756Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated list of the best books for learning and mastering TypeScript — from beginner fundamentals to advanced type-system techniques and framework-specific guides",
@@ -13,7 +13,7 @@
       "open_issues": 0,
       "owner": "tscollege",
       "repo": "typescript-books",
-      "stars": 196,
+      "stars": 197,
       "topics": [
         "awesome",
         "awesome-list",
